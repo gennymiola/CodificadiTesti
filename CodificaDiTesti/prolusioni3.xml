@@ -1,0 +1,1297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- root del documento-->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!-- namespace-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <!-- metadati relativi al documento-->
+        <fileDesc>
+            <!-- titolo dell'edizione digitale-->
+            <titleStmt>
+                <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                <title xml:lang="fr" type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
+                <title xml:lang="it" type="alt">Le prime tre conferenze all'università</title>
+                <title xml:lang="it" type="alt">(corso di apertura, <date when="1891-11">novembre 1891</date>)</title>
+                <!-- autore del testo-->
+                <author ref="#FDS" role="author">Ferdinand De Saussure</author>
+                <!-- dichiarazione di responsabilità per il contenuto di un testo-->
+                <respStmt> 
+                    <resp source="#Fadda">Traduzione di</resp>
+                    <name ref="EF">Emanuele Fadda</name>
+                </respStmt>
+            </titleStmt>
+            <!--  raggruppa le informazioni riguardo l'edizione di un testo-->
+            <editionStmt>
+                <edition>Edizione digitale - <date when="2022-09">Settembre 2022</date></edition>
+                <!--  indicate le persone (con <name>) responsabili di specifici compiti (dichiarati in <resp>) -->
+                <respStmt>
+                    <resp>Progetto coordinato da</resp>
+                    <name ref="AMDG">Angelo Mario Del Grosso</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codificato da</resp>
+                    <name ref="GM">Genny Miola</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Trascritto da</resp>
+                    <name ref="SB">Simon Bouquet</name>
+                    <name ref="RE">Rudolf Engler</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Tradotto da</resp>
+                    <name ref="#EF">Emanuele Fadda</name>
+                </respStmt>
+            </editionStmt>
+             <!--  raggruppa le informazioni riguardo la pubblicazione o la distribuzione del documento elettronico  -->
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <pubPlace key="pisa">Pisa, PI</pubPlace>
+                <address>
+                    <postCode>56127</postCode>
+                    <country key="IT">Italia</country>
+                </address>
+                <availability>
+                    <p>Opera ad accesso libero</p>
+                </availability>
+                <date when="2022">2022</date>
+            </publicationStmt>
+             <!--  descrizione della fonte originaria  -->
+            <sourceDesc>
+              <!--  descrizione del manoscritto  -->
+                <msDesc>
+                    <msIdentifier>
+                        <country key="CH">Svizzera</country>
+                        <settlement type="town" ref="#ginevra">Ginevra</settlement>
+                        <institution>Bibliothèque de Genève</institution>
+                        <repository ref="https://archives.bge-geneve.ch/ark:/17786/vta01d046d929f231ba" role="library">Biblioteca di Ginevra</repository>
+                        <collection>Archives Ferdinand de Saussure</collection>
+                        <idno type="inventory">BGE Ms. fr. 3951/1.3</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title xml:lang="fr" type="main">Trois premières conférences à l'Universitè</title>
+                            <author xml:lang="fr" ref="#FDS">Ferdinand de Saussure</author>
+                            <textLang mainLang="fr">francese</textLang>
+                            <docImprint>
+                                <pubPlace ref="#ginevra">Ginevra</pubPlace>
+                                <date>1891</date>
+                            </docImprint>
+                        </msItem>
+                    </msContents>
+                    <!--descrizione fisica completa del manoscritto-->
+                    <physDesc>
+                    <!-- descrizione delle componenti fisiche che costituiscono l'oggetto descritto-->
+                        <objectDesc form="folio">
+                        <!--descrizione del supporto-->
+                            <supportDesc>
+                                <support>fogli di <material>carta</material></support>
+                                <!--la grandezza approssimativa del documento elettronico-->
+                                <extent>67 pagine ed un foglietto, in particolare 30 + 15 + 22 pagine + 1 foglietto</extent>
+                                <foliation>Ogni pagina è composta da un foglio.</foliation>
+                                <condition>Alcune pagine presentano degli strappi ai bordi e alcune sono leggermente macchiate. Tuttavia, i fogli risultano essere stati conservati in buone condizioni.</condition>
+                            </supportDesc>
+                            <!--descrizione dell'impaginazione-->
+                            <layoutDesc>
+                            <!--descrive la disposizione del testo sulla pagina-->
+                                <layout columns="1" ruledLines="20 30">
+                                    <p>Le pagine hanno in media tra le 20 e le 30 righe e presentano molte note a margine e al di sopra del testo, cancellature e correzioni.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                            <!--contiene una descrizione dei diversi tipi di scrittura usati in un manoscritto-->
+                            <handDesc hands="1">
+                                <handNote>Il testo è stato scritto interamente dalla mano dell'autore <persName ref="#FDS">Ferdinand de Saussure</persName></handNote>
+                            </handDesc>
+                    </physDesc>
+                    <!--raggruppa gli elementi che descrivono la storia completa di un manoscritto-->
+                    <history>
+                        <origin>
+                            <p>Gli appunti furono scritti da <persName ref="#FDS">Ferdinand de Saussure</persName> e utilizzati durante le prime tre lezioni del corso di <foreign xml:lang="fr">Phonétique du grec et du latin</foreign>, che si tennero in data <origDate when="1891-11-06" cert="high">6</origDate>, <origDate when="1891-11-10" cert="high">10</origDate>
+							e <origDate when="1891-11-13" cert="high">13 novembre 1891</origDate>, presso <origPlace ref="#ginevra">Ginevra</origPlace>. Gli appunti erano, probabilmente, destinati alla pubblicazione di una <foreign xml:lang="fr">brochure</foreign>.</p>
+                        </origin>
+                        <acquisition>
+                            <p>Il testo originale venne in seguito acquisito dalla Biblioteca di <placeName ref="#ginevra">Ginevra</placeName></p>
+                        </acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--documenta la relazione fra un documento elettronico e la o le fonti da cui è derivato-->
+        <encodingDesc>
+            <!-- descrive in dettaglio lo scopo per il quale un documento elettronico è sato codificato-->
+            <projectDesc>
+                <p>Testo codificato per il progetto dell'esame di Codifica di testi</p>
+            </projectDesc>
+            <!-- fornisce dettagli su principi e pratiche editoriali seguite nella codifica di un testo-->
+            <editorialDecl>
+                <!--indica il grado di normalizzazione o regolarizzazione della fonte effettuato nella conversione a documento elettronico-->
+                <normalization method="markup">
+                    <p>Per le normalizzazioni è stato utilizzato l'elemento <gi>choice</gi>, in modo da racchiudere gli elementi <gi>orig</gi> e <gi>reg</gi> e mantenere nell'edizione digitale i valori originali e quelli nuovi</p>
+                </normalization>
+                <!--specifica la prassi editoriale adottata rispetto ai segni di punteggiatura nell'originale-->
+                <punctuation marks="some">
+                    <p>Alcuni segni di punteggiatura sono stati mantenuti come contenuto all'interno del testo</p>
+                </punctuation>
+                <!-- riassume il modo in cui il trattino nell'originale sia stato trattato nella versione codificata dello stesso testo-->
+                <hyphenation eol="all">
+                    <p>Sono stati mantenuti, dove presenti nell'originiale, tutti i tutti i trattini che segnalano la sillabazione di fine riga</p>
+                </hyphenation>
+                <!--descrive il modo in cui è stato segmentato il testo-->
+                <segmentation>
+                    <p>Il testo è stato segmentato in paragrafi usando l'elemento <gi>ab</gi> e conta 7 paragrafi per la prima pagina e 5 per la seconda</p>
+                </segmentation>
+            </editorialDecl>
+        </encodingDesc>
+        <!--fornisce una descrizione dettagliata degli aspetti non bibliografici di un testo-->
+        <profileDesc>
+            <!-- descrive le lingue usate all'interno del testo-->
+            <langUsage>
+                <language ident="fr">francese</language>
+            </langUsage>
+            <!--descrizione del testo-->
+            <textDesc>
+                <!--descrive il mezzo o canale attraverso cui un testo è trasmesso-->
+                <channel mode="ws"/>
+                <!--descrive la composizione interna di un testo-->
+                <constitution type="single" />
+                <!--descrive la natura ed il grado di originalità del testo-->
+                <derivation type="original" />
+                <!--ambito di uso-->
+                <domain type="education" />
+                <!--quantifica quanto il testo possa essere considerato di invenzione o meno-->
+                <factuality type="fact" />
+                <!--descrive ogni interazione fra coloro che producono e coloro che sperimentano il testo-->
+                <interaction type="partial" active="singular" passive="group" />
+                <!--descrive quanto un testo possa essere considerato preparato o spontaneo-->
+                <preparedness type="draft" />
+                <!--indica un singolo scopo del testo-->
+                <purpose type="inform" degree="high" />
+            </textDesc>
+            <!--descrizione dello scenario-->
+            <settingDesc>
+                <setting>
+                    <name>Testi conservati nella Biblioteca di <placeName ref="#ginevra">Ginevra</placeName>, <country key="CH">Svizzera</country>.</name>
+                    <date when="1891-11">novembre 1891</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+    </teiHeader>
+    <!--inizio del body-->
+    <!--rappresentazione facsimilare del documento-->
+    <facsimile>
+         <!--definisce una superficie scritta in termini di uno spazio rettangolare di coordinate-->
+        <surface>
+             <!-- Prolusioni 3 - Pagina 12 -->
+            <graphic url="immagini/pagina12.jpg" xml:id="pag12" width='2154px' height='3256px' />
+            <zone ulx="12" uly="11" lrx="2133" lry="3252" xml:id="P12intera"/>
+            <zone ulx="363" uly="103" lrx="1859" lry="237" xml:id="P12_R1"/>
+            <zone ulx="313" uly="216" lrx="2083" lry="351" xml:id="P12_R2"/>
+            <zone ulx="329" uly="358" lrx="2056" lry="448" xml:id="P12_R3"/>
+            <zone ulx="306" uly="463" lrx="2120" lry="561" xml:id="P12_R4"/>
+            <zone ulx="363" uly="553" lrx="2118" lry="716" xml:id="P12_R5"/>
+            <zone ulx="353" uly="696" lrx="2074" lry="784" xml:id="P12_R6"/>
+            <zone ulx="359" uly="766" lrx="2057" lry="881" xml:id="P12_R7"/>
+            <zone ulx="352" uly="892" lrx="2089" lry="979" xml:id="P12_R8"/>
+            <zone ulx="353" uly="983" lrx="2028" lry="1102" xml:id="P12_R9"/>
+            <zone ulx="332" uly="1102" lrx="2028" lry="1208" xml:id="P12_R10"/>
+            <zone ulx="319" uly="1204" lrx="2080" lry="1305" xml:id="P12_R11"/>
+            <zone ulx="355" uly="1304" lrx="2093" lry="1409" xml:id="P12_R12"/>
+            <zone ulx="355" uly="1416" lrx="2062" lry="1517" xml:id="P12_R13"/>
+            <zone ulx="351" uly="1524" lrx="2010" lry="1616" xml:id="P12_R14"/>
+            <zone ulx="343" uly="1632" lrx="2083" lry="1724" xml:id="P12_R15"/>
+            <zone ulx="332" uly="1737" lrx="2088" lry="1846" xml:id="P12_R16"/>
+            <zone ulx="340" uly="1846" lrx="2117" lry="1935" xml:id="P12_R17"/>
+            <zone ulx="368" uly="1945" lrx="2105" lry="2041" xml:id="P12_R18"/>
+            <zone ulx="390" uly="2050" lrx="2103" lry="2152" xml:id="P12_R19"/>
+            <zone ulx="394" uly="2154" lrx="2123" lry="2242" xml:id="P12_R20"/>
+            <zone ulx="44" uly="2239" lrx="2129" lry="2308" xml:id="P12_R21"/>
+            <zone ulx="95" uly="2286" lrx="2113" lry="2393" xml:id="P12_R22"/>
+            <zone ulx="340" uly="2389" lrx="2089" lry="2507" xml:id="P12_R23"/>
+            <zone ulx="356" uly="2520" lrx="1500" lry="2591" xml:id="P12_R24"/>
+            <zone ulx="77" uly="2569" lrx="2124" lry="2749" xml:id="P12_R25"/>
+            <zone ulx="416" uly="2739" lrx="2101" lry="2817" xml:id="P12_R26"/>
+            <zone ulx="441" uly="2824" lrx="2128" lry="2926" xml:id="P12_R27"/>
+            <zone ulx="458" uly="2929" lrx="2112" lry="3041" xml:id="P12_R28"/>
+            <zone ulx="453" uly="3020" lrx="2089" lry="3147" xml:id="P12_R29"/>
+            <zone ulx="466" uly="3129" lrx="2107" lry="3250" xml:id="P12_R30"/>
+        </surface>
+        <!-- retro-->
+        <surface>
+            <graphic url="immagini/pagina12R.jpg" xml:id="pag12R" width='2117px' height='3287px' />
+            <zone ulx="31" uly="16" lrx="2112" lry="3275" xml:id="P12interaR" />
+        </surface>
+
+        <surface>
+            <!-- Prolusioni 3 - Pagina 13 -->
+            <graphic url="immagini/pagina13.jpg" xml:id="pag13" width='2173px' height='3285px' />
+            <zone ulx="17" uly="12" lrx="2161" lry="3274" xml:id="P13intera"/>
+            <zone ulx="341" uly="83" lrx="2157" lry="233" xml:id="P13_R1"/>
+            <zone ulx="355" uly="225" lrx="2140" lry="332" xml:id="P13_R2"/>
+            <zone ulx="58" uly="334" lrx="2132" lry="470" xml:id="P13_R3"/>
+            <zone ulx="345" uly="452" lrx="2130" lry="566" xml:id="P13_R4"/>
+            <zone ulx="341" uly="555" lrx="2129" lry="677" xml:id="P13_R5"/>
+            <zone ulx="350" uly="675" lrx="2112" lry="795" xml:id="P13_R6"/>
+            <zone ulx="340" uly="783" lrx="2112" lry="911" xml:id="P13_R7"/>
+            <zone ulx="374" uly="872" lrx="1407" lry="1011" xml:id="P13_R8"/>
+            <zone ulx="549" uly="1009" lrx="2130" lry="1126" xml:id="P13_R9"/>
+            <zone ulx="425" uly="1106" lrx="2093" lry="1237" xml:id="P13_R10"/>
+            <zone ulx="442" uly="1223" lrx="2088" lry="1329" xml:id="P13_R11"/>
+            <zone ulx="441" uly="1325" lrx="2101" lry="1447" xml:id="P13_R12"/>
+            <zone ulx="427" uly="1446" lrx="2149" lry="1578" xml:id="P13_R13"/>
+            <zone ulx="430" uly="1560" lrx="1482" lry="1683" xml:id="P13_R14"/>
+            <zone ulx="479" uly="1673" lrx="2122" lry="1799" xml:id="P13_R15"/>
+            <zone ulx="458" uly="1790" lrx="2129" lry="1905" xml:id="P13_R16"/>
+            <zone ulx="427" uly="1890" lrx="2119" lry="2019" xml:id="P13_R17"/>
+            <zone ulx="417" uly="2008" lrx="2126" lry="2119" xml:id="P13_R18"/>
+            <zone ulx="427" uly="2114" lrx="2127" lry="2238" xml:id="P13_R19"/>
+            <zone ulx="436" uly="2227" lrx="2103" lry="2344" xml:id="P13_R20"/>
+            <zone ulx="437" uly="2334" lrx="2100" lry="2443" xml:id="P13_R21"/>
+            <zone ulx="432" uly="2439" lrx="2144" lry="2566" xml:id="P13_R22"/>
+            <zone ulx="440" uly="2544" lrx="2126" lry="2684" xml:id="P13_R23"/>
+            <zone ulx="570" uly="2660" lrx="2137" lry="2812" xml:id="P13_R24"/>
+            <zone ulx="530" uly="2779" lrx="2128" lry="2907" xml:id="P13_R25"/>
+            <zone ulx="545" uly="2901" lrx="2131" lry="3005" xml:id="P13_R26"/>
+            <zone ulx="573" uly="2994" lrx="2065" lry="3103" xml:id="P13_R27"/>
+            <zone ulx="569" uly="3097" lrx="2024" lry="3224" xml:id="P13_R28"/>
+        </surface>
+        <!-- retro-->
+        <surface>
+            <graphic url="immagini/pagina13R.jpg" xml:id="pag13R" width='2155px' height='3261px' />
+            <zone ulx="11" uly="10" lrx="2147" lry="3254" xml:id="P13interaR" />
+        </surface>
+    </facsimile>
+
+    <text xml:lang="fr" xml:id="txt_fr" subtype="manuscript">
+        <body>
+            <div type="pagina" n="12">
+                <!-- pb indica l'inizio di una pagina in un documento impaginato e l'attributo globale facs associa un'immagine o una porzione di essa all'elemento corrispondente-->
+                <pb n="12" facs="#pag12" />
+                    <fw type="pageNum" place="top right"></fw>
+                    <fw type="pageNum" place="top left"></fw>
+                    <ab type="paragrafo" n="1" xml:id="par1_P12">
+                        <!--segna l'inizio di una nuova riga --> 
+                        <lb xml:id="P12_riga1" n="1" facs="#P12_R1" />
+                        Ainsi se fait que nous ne surprenons <reg resp="EF">,</reg>
+                        <lb xml:id="P12_riga2" n="2" facs="#P12_R2" />
+                        <del resp="#FDS" rend="overstrike" instant="true">peu</del> on peut le dire <reg resp="#EF">,</reg> nulle par<retrace cause="unclear">t</retrace> une <term ref="#lng">langue</term>
+                        <lb xml:id="P12_riga3" n="3" facs="#P12_R3" />
+                        qui <del resp="#FDS" rend="overstrike">è <gap reason="illegible" atLeast="4" atMost="5" unit="chars" /></del> nous apparaisse comme
+                        <lb xml:id="P12_riga4" n="4" facs="#P12_R4" />
+                        <term ref="#geo"><choice><abbr resp="#FDS" cert="medium" type="contraction">géographiqmt</abbr><expan>géographiquement</expan></choice></term> <term ref="un">une</term> et <term ref="#idqe">identique</term>;
+                    </ab>
+                    <ab type="paragrafo" n="2" xml:id="par2_P12">
+                        <choice><abbr resp="#FDS">tt</abbr><expan>tout</expan></choice> <term ref="#idme">idiome</term>
+                        <lb xml:id="P12_riga5" n="5" facs="#P12_R5" />
+                        <choice><sic cert="medium">quel’</sic><corr resp="#EF">que l'</corr></choice>on peut citer<orig>,</orig> n’est <term ref="#gnrlm"><add resp="#FDS" place="above">généralement</add></term> qu'<emph rend="underline">une des <add resp="#FDS" place="above"><choice><sic cert="medium">multi</sic><corr resp="#EF">multiples</corr></choice></add> <term ref="#frmsgeo">formes</term></emph> 
+                        <lb xml:id="P12_riga6" n="6" facs="#P12_R6" />
+                        <term ref="#frmsgeo">géographiques</term> 
+                        <del rend="overstrike" resp="#FDS"><gap reason="illegible" atLeast="13" atMost="15" unit="chars" /></del> sous lesquelles 
+                        <lb xml:id="P12_riga7" n="7" facs="#P12_R7" />
+                        se présente le même <term ref="#prlr">parler</term> <add resp="#FDS" place="above"><choice><orig>d</orig><reg resp="#EF"> dans</reg></choice> <choice><orig>1</orig><reg resp="#EF"> une</reg></choice> <term ref="#rgn">région</term> <choice><orig>1</orig><reg resp="#EF">un</reg></choice> peu <term ref="#etnd">étendue</term></add>.
+                    </ab>
+                    <ab type="paragrafo" n="3" xml:id="par3_P12">
+                        Partout nous
+                        <lb xml:id="P12_riga8" n="8" facs="#P12_R8" />
+                        constatons le <term ref="#frtdalct">fractionnement dialectal</term>.
+                    </ab>
+                    <ab type="paragrafo" n="4" xml:id="par4_P12">
+                        Il nous
+                        <lb xml:id="P12_riga9" n="9" facs="#P12_R9" />
+                        est souvent voilé par <subst><del rend="overstrike" resp="#FDS">le fais</del> <add place="above" resp="#FDS"> cette<term ref="#crcntce"> circonstance</term></add></subst> qu'un des
+                        <lb xml:id="P12_riga10" n="10" facs="#P12_R10" />
+                        <term ref="#dffrts"><choice><abbr resp="#FDS" type="contraction">differts</abbr><expan>différentes</expan></choice></term> <term ref="#dialcts">dialectes</term> a pris, soit comme <term ref="#lgnltre">langue</term>
+                        <lb xml:id="P12_riga11" n="11" facs="#P12_R11" />
+                        <term ref="#lgnltre">littéraire</term>, soit comme <term ref="#lngoffadmn">langue officielle adminis-</term>
+                        <!--L'attributo break viene utilizzato per mostrare che l'interruzione di riga non contrassegna (come altrove) l'inizio di una nuova parola.-->
+                        <lb break="no" rend="double stroke" xml:id="P12_riga12" n="12" facs="#P12_R12" />
+                        <term ref="#lngoffadmn">trative</term>, soit comme <term ref="#lngdetrf">langue de trafic</term> et <del rend="overstrike" resp="#FDS"> de</del>
+                        <lb xml:id="P12_riga13" n="13" facs="#P12_R13" />
+                        <del rend="overstrike" resp="#FDS"><gap reason="illegible" extent="3" unit="chars" /></del> d'<emph rend="underline"><term ref="intc">intercourse</term></emph> entre les <term ref="#dffrts"><choice><abbr resp="#FDS">diff<am>.</am></abbr><expan>diff<ex>érentes</ex></expan></choice></term> parties du 
+                        <lb xml:id="P12_riga14" n="14" facs="#P12_R14" />
+                        <term ref="#pys">pays</term>, une situation prééminente qui 
+                        <lb xml:id="P12_riga15" n="15" facs="#P12_R15" />
+                        fait que ce <term ref="#dialct">dialecte</term> seul nous est parvenu
+                        <lb xml:id="P12_riga16" n="16" facs="#P12_R16" />
+                        <del resp="#FDS" rend="overstrike">par</del> <choice><orig>d</orig><reg resp="#EF">dans</reg></choice> des <term ref="#mumtecrt">monuments éctris</term>, ou qui fait que
+                        <lb xml:id="P12_riga17" n="17" facs="#P12_R17" />
+                        les autres <term ref="#dialcts">dialectes</term> sont considérés comme
+                        <lb xml:id="P12_riga18" n="18" facs="#P12_R18" />
+                        des <subst> <del rend="overstrike" resp="#FDS"><gap reason="illegible" atLeast="5" atMost="6" unit="chars" /></del> <add place="above"><term ref="#jgns"> jargons</term></add> </subst> informes et horribles, <del rend="overstrike" resp="#FDS">réguliè-</del>
+                        <lb break="no" rend="double stroke" xml:id="P12_riga19" n="19" facs="#P12_R19" />
+                        <del rend="overstrike" resp="#FDS">rement</del> qu’on se figure être des <term ref="#crrp">corrup-</term>
+                        <lb break="no" rend="double stroke" xml:id="P12_riga20" n="20" facs="#P12_R20" />
+                        <term ref="#crrp">tions</term> de la <term ref="#lngoff">langue officielle</term>.
+                    </ab>
+                    <ab type="paragrafo" n="5" xml:id="par5_P12">
+                        Enfin il arrive 
+                        <lb xml:id="P12_riga21" n="21" facs="#P12_R21" />
+                        souvent<reg resp="#EF">,</reg> <choice><orig><num type="ordinal" value="2">2°</num></orig><reg resp="#EF">deuxièmement</reg></choice><reg resp="#EF">,</reg> que la <term ref="#lng">langue</term> adoptée <choice><abbr resp="#FDS" cert="medium" type="contraction">cm</abbr><expan>comme</expan></choice> <term ref="#lnglitt"><choice><abbr resp="#FDS" cert="medium" type="contraction">lgn litt<am>.</am></abbr><expan>langue littéraire</expan></choice></term> arrive à tuer<reg resp="#EF">[ ].</reg>
+                        <lb xml:id="P12_riga22" n="22" facs="#P12_R22" />
+                        <orig><metamark>—</metamark></orig>, <del rend="overstrike" resp="#FDS">Ainsi [ l'allemand moderne, l'allemand</del>
+                        <lb xml:id="P12_riga23" n="23" facs="#P12_R23" />
+                        <del rend="overstrike" resp="#FDS"><emph rend="underline">réel</emph>, est représenté non pas par la langue</del>
+                        <lb xml:id="P12_riga24" n="24" facs="#P12_R24" />
+                        <del rend="overstrike" resp="#FDS">ensupreé <choice><orig>d</orig><reg cert="high" resp="#GM">dans</reg></choice> les écodes, mais</del>
+                    </ab>
+                    <ab type="paragrafo" n="6" xml:id="par6_P12">
+                        <lb xml:id="P12_riga25" n="25" facs="#P12_R25" />
+                        <add resp="#FDS" place="above"><term ref="#expl"><choice><abbr resp="#FDS">Ex<am>.</am></abbr><expan>Ex<ex>emple</ex></expan></choice></term> <reg resp="#EF">:</reg> il peut sembler</add> <choice><orig>que vous possédez,  le <term ref="latin"><orgName ref="#latini">latin</orgName></term> <add place="above" resp="#FDS">que vous connaissez</add></orig> <reg resp="#EF">que le <term ref="latin"><orgName ref="#latini">latin</orgName></term>, que vous possédez, <add place="above">que vous connaissez</add></reg></choice>, pris à ses <term ref="#orgns">origines</term>, peut
+                        <lb xml:id="P12_riga26" n="26" facs="#P12_R26" />
+                        <del rend="overstrike" resp="#FDS">sembler <choice><abbr resp="#FDS" type="contraction">pr</abbr><expan>pour</expan></choice> <choice><orig>1</orig><reg resp="#EF"> un</reg></choice> <term ref="#obssup"><choice><abbr resp="#FDS">ob<am>.</am></abbr><expan>ob<ex>servateur</ex></expan></choice> superfciel</term> être soit la</del>
+                        <lb xml:id="P12_riga27" n="27" facs="#P12_R27" />
+                        <term ref="#lng">langue</term> <choice><sic cert="medium">del'</sic><corr resp="#EF">de l'</corr></choice><placeName><country n="k" key="IT">Italie</country></placeName>, soit au moins la  <term ref="#lng">langue</term>
+                        <lb xml:id="P12_riga28" n="28" facs="#P12_R28" />
+                        du <placeName><region n="k" key="latium">Latium</region></placeName>.
+                    </ab>
+                    <ab type="paragrafo" n="7" xml:id="par7_P12">
+                        En réalité, <choice><orig>q'</orig><reg resp="#EF">quand</reg></choice> on jette <choice><orig>1</orig><reg resp="#EF">un</reg></choice> <choice><abbr resp="#FDS" type="contraction">cp</abbr><expan>coup</expan></choice> d’œil
+                        <lb xml:id="P12_riga29" n="29" facs="#P12_R29" />
+                        sur les <term ref="#inscpt">inscriptions</term> <term ref="#falisques"><orgName ref="#falisci">falisques</orgName></term>, <term ref="#volsques"><orgName ref="#volsci">volsques</orgName></term>,
+                        <lb xml:id="P12_riga30" n="30" facs="#P12_R30" />
+                        <term ref="#osques"><orgName ref="#osci">osques</orgName></term>, <term ref="#sabines"><orgName ref="#sabini">sabines</orgName></term> <orig><metamark>—</metamark></orig> ou sur les <term ref="#mts">mots</term> transmis par
+                    </ab>
+            </div>
+
+             <div type="pagina" n="13">
+                <pb n="13" facs="#pag13" />
+                    <fw type="pageNum" place="top right"></fw>
+                    <fw type="pageNum" place="top left"></fw>
+                    <ab type="paragrafo" n="7" corresp="#par7_P12">
+                        <lb xml:id="P13_riga1" n="1" facs="#P13_R1" />
+                        les <term ref="#grmm"><choice><abbr resp="#FDS">gramm<am>.</am></abbr><expan>gramm<ex>airiens</ex></expan></choice></term> <reg resp="#EF">,</reg>on s’aperçoit que le <term ref="#latinromain"><orgName ref="#latini">latin romain</orgName></term><reg resp="#EF">,</reg>
+                        <lb xml:id="P13_riga2" n="2" facs="#P13_R2" />
+                        qui a eu de si glorieuses destinées <choice><orig>d</orig><reg resp="#EF">dans</reg></choice> l'<term ref="#hist"><abbr resp="#FDS">hist<am>.</am></abbr><expan>hist<ex>oire</ex></expan></term> <reg resp="#EF">,</reg> 
+                        <lb xml:id="P13_riga3" n="3" facs="#P13_R3" />
+                        <add resp="#FDS" place="inline">était <choice><orig>1</orig><reg resp="#EF">un</reg></choice></add> 
+                        <mod><add resp="#FDS" place="above">petit <term ref="#dialct"><choice><abbr type="suspension">dial</abbr><expan>dialecte</expan></choice></term> local</add> <del rend="overstrike" instant="true" resp="#FDS">finissa</del></mod>
+                        finissant presque <choice><abbr resp="#FDS" type="contraction" cert="medium">litéralmt</abbr><expan>littéralement</expan></choice> aux 
+                        <lb xml:id="P13_riga4" n="4" facs="#P13_R4" />
+                        portes de <placeName n="k" ref="#RM">Rome</placeName>.
+                    </ab>
+                    <ab type="paragrafo" n="1" xml:id="par1_P13">
+                        L'<placeName><country n="k" key="IT">Italie</country></placeName> est remplie
+                        <lb xml:id="P13_riga5" n="5" facs="#P13_R5" />
+                        d’autres <term ref="#frms">formes</term> de la <term ref="#langueitalique"><orgName ref="#linguaita">langue italique</orgName></term>, les
+                        <lb xml:id="P13_riga6" n="6" facs="#P13_R6" />
+                         unes assez bien connues<reg resp="#EF">,</reg> comme l'<term ref="#ombrien"><orgName ref="#umbri">ombrien</orgName></term> ou <del rend="overstrike" resp="#FDS"> le</del>
+                        <lb xml:id="P13_riga7" n="7" facs="#P13_R7" />
+                        l'<term ref="#osques"><orgName ref="#osci">osque</orgName></term>, les autres <del rend="overstrike" resp="#FDS"> <gap reason="illegible" extent="2" unit="chars"/></del> dont <choice><abbr resp="#FDS" type="contraction">ns</abbr><expan>nous</expan></choice>
+                        n’avons qu’<choice><orig>1</orig><reg resp="#EF">une</reg></choice> <term ref="#ide">idée</term> 
+                        <lb xml:id="P13_riga8" n="8" facs="#P13_R8" />
+                        <choice><abbr resp="#FDS" type="brevigraph">+</abbr><expan>plus</expan></choice> vague comme le <term ref="#sabines"><orgName ref="#sabini">sabin</orgName></term>.
+                    </ab>
+                    <ab type="paragrafo" n="2" xml:id="par2_P13">
+                        <lb xml:id="P13_riga9" n="9" facs="#P13_R9" />
+                        <space resp="#FDS" dim="horizontal"></space> Or remarquons que le <term ref="#dialecteromain"><orgName ref="#latini"><choice><abbr resp="#FDS">dial<am>.</am></abbr><expan>dial<ex>ecte</ex></expan></choice> romain</orgName></term> a
+                        <lb xml:id="P13_riga10" n="10" facs="#P13_R10" />
+                        fini, grâce à des <term ref="#caus">causes</term> <term ref="#pltqs"><choice><abbr resp="#FDS">politiq<am>.</am></abbr><expan>politiq<ex>ues</ex></expan></choice></term> et <term ref="#lttrs"><choice><abbr resp="#FDS">littér<am>.</am></abbr><expan>littér<ex>aires</ex></expan></choice></term>, 
+                        <lb xml:id="P13_riga11" n="11" facs="#P13_R11" />
+                        par balayer <choice><abbr resp="#FDS" type="contraction">ttes</abbr><expan>toutes</expan></choice> les autres <term ref="#frms">formes</term> non
+                        <lb xml:id="P13_riga12" n="12" facs="#P13_R12" />
+                        moins légitimes du <term ref="#lngitaq">langage <choice><abbr resp="#FDS">italiq<am>.</am></abbr><expan>itali<ex>que</ex></expan></choice></term>
+                    </ab>
+                    <ab type="paragrafo" n="3" xml:id="par3_P13">
+                        <orig><metamark>—</metamark></orig> <date xml:id="data">Cela</date>
+                        <lb xml:id="P13_riga13" n="13" facs="#P13_R13" />
+                        <date ref="#data">a duré fort longtemps</date> (<placeName n="k" ref="#PO">Pompéi</placeName>); mais enfin 
+                        <lb xml:id="P13_riga14" n="14" facs="#P13_R14" />
+                        cela a fini par se <choice><sic cert="medium">prodi</sic><corr resp="#EF">produire</corr></choice>.
+                    </ab>
+                    <ab type="paragrafo" n="4" xml:id="par4_P13">
+                        <lb xml:id="P13_riga15" n="15" facs="#P13_R15" />
+                        <space resp="#FDS" dim="horizontal"></space> De même, <orig><metamark>—</metamark></orig> si l’on veut se faire
+                        <lb xml:id="P13_riga16" n="16" facs="#P13_R16" />
+                        <choice><orig>1</orig><reg resp="#EF">une</reg></choice> idée saine de ce qu’est par <term ref="#expl"><choice><abbr>ex<am>.</am></abbr><expan>ex<ex>emple</ex></expan></choice></term> l'<term ref="allemandmoderne"><orgName ref="#tedesco"><choice><abbr resp="#FDS" type="contraction" cert="medium">allemd</abbr><expan>allemand</expan></choice></orgName></term>
+                        <lb xml:id="P13_riga17" n="17" facs="#P13_R17" />
+                        <term ref="allemandmoderne"><orgName ref="#tedesco">moderne</orgName></term> dans <mod><del rend="overstrike" resp="#FDS">tte</del> <add place="above" resp="#FDS">la véritable</add></mod> <orig>l'</orig> étendue
+                        <del rend="overstrike"> <gap reason="illegible" extent="1" unit="chars"/> la valeur </del>
+                        <lb xml:id="P13_riga18" n="18" facs="#P13_R18" />
+                        du <term ref="#trm">terme</term><choice><orig>;</orig><reg resp="#EF">,</reg></choice> il faut commencer par ramener 
+                        <lb xml:id="P13_riga19" n="19" facs="#P13_R19" />
+                        l'<term ref="#allemandofficiel"><orgName ref="#tedesco">allemand officiel</orgName></term> que <choice><abbr resp="#FDS" type="contraction">ns</abbr><expan>nous</expan></choice> apprenons <mod type="subst" cert="medium" resp="#FDS"><del rend="overstrike" resp="#FDS" instant="true"> à la</del></mod>
+                        <lb xml:id="P13_riga20" n="20" facs="#P13_R20" />
+                        <mod type="subst" cert="medium" resp="#FDS"><del rend="overstrike" resp="#FDS" instant="true">valeur</del> <add place="inline">non pas à la</add></mod> <term ref="#valzer">valeur <num type="cardinal" value="0">zéro</num></term>, mais à
+                        <lb xml:id="P13_riga21" n="21" facs="#P13_R21" />
+                        la <term ref="val">valeur</term> d'<choice><orig>1</orig><reg resp="#EF">une</reg></choice> seule <term ref="unit">unité</term>, parmi les
+                        <lb xml:id="P13_riga22" n="22" facs="#P13_R22" />
+                        centaines d’<term ref="#unit">unités</term> que l’on pourra <term ref="#dstngr">distinguer</term>,
+                        <lb xml:id="P13_riga23" n="23" facs="#P13_R23" />
+                        <orig><metamark>—</metamark></orig> sans aller <choice><abbr resp="#FDS" type="brevigraph">+</abbr><expan>plus</expan></choice> loin que la <placeName n="k" ref="#suisseall">Suisse allemande</placeName>.
+                    </ab>
+                    <ab type="paragrafo" n="5" xml:id="par5_P13">
+                        <lb xml:id="P13_riga24" n="24" facs="#P13_R24" />
+                        <space resp="#FDS" dim="horizontal"></space> <del rend="overstrike" resp="#FDS">Il <gap reason="illegible" extent="4" unit="chars" /> comme</del> La position du <term ref="#français"><orgName ref="#francese">français</orgName></term>
+                        <lb xml:id="P13_riga25" n="25" facs="#P13_R25" />
+                        vis-à-vis des <term ref="#patoisfrançais"><orgName ref="#francese">patois français</orgName></term> est encore
+                        <lb xml:id="P13_riga26" n="26" facs="#P13_R26" />
+                        <choice><abbr resp="#FDS" type="contraction">exactt</abbr><expan>exactement</expan></choice> la même; c’est-à-dire que le <term ref="#françaiseofficiel"><orgName ref="#francese">français</orgName></term>
+                        <lb xml:id="P13_riga27" n="27" facs="#P13_R27" />
+                        <term ref="#françaiseofficiel"><orgName ref="#francese">officiel</orgName></term> représente le <term ref="#dialct">dialecte</term> d'<choice><orig>1</orig><reg resp="#EF">une</reg></choice> seule 
+                        <lb xml:id="P13_riga28" n="28" facs="#P13_R28" />
+                        <reg resp="#EF">[<term ref="rgn">région</term>]:</reg> <placeName n="k" ref="#PA">Paris</placeName> et l'<placeName><region n="k" key="île-de-france">Île-de-France</region></placeName> <orig><metamark>—</metamark></orig><reg resp="#EF">.</reg>
+                    </ab>
+            </div>
+
+            <!--Traduzione in italiano-->
+            <div type="traduzionepag12" n="1">
+                <ab n="1" corresp="#par1_P12" xml:lang="it">
+                    Così accade che noi non ritroviamo, si può dire, da nessuna parte una lingua che ci appaia come geograficamente una e identica;
+                </ab>
+                <ab n="2" corresp="#par2_P12" xml:lang="it">
+                    ogni idioma che si può citare non è generalmente che <hi rend="italic">una delle molteplici forme</hi> geografiche sotto le quali si presenta la stessa parlata in una regione non minuscola.
+                </ab>
+                <ab n="3" corresp="#par3_P12" xml:lang="it">
+                    Dovunque constatiamo il frazionamento dialettale.
+                </ab>
+                <ab n="4" corresp="#par4_P12" xml:lang="it">
+                    Esso ci è spesso offuscato dalla circostanza che uno dei differenti dialetti ha preso, sia come lingua letteraria, sia come lingua ufficiale amministrativa, sia come lingua dei traffici e d’<hi rend="italic">interscambio</hi> tra le differenti parti del paese, una situazione preeminente che fa sì che solo quel dialetto ci è pervenuto attraverso monumenti scritti, o che fa sì che gli altri dialetti siano considerati come gerghi informi e orribili, che ci si figura essere delle corruzioni della lingua ufficiale.
+                </ab>
+                <ab n="5" corresp="#par5_P12" xml:lang="it">
+                    Alla fin fine succede spesso, in secondo luogo, che la lingua adottata come lingua letteraria arriva ad uccidere [ ].
+                </ab>
+                <ab n="6" corresp="#par6_P12" xml:lang="it">
+                    Esempio: il latino, che voi possedete, che voi conoscete, preso alle sue origini può sembrare, ad un osservatore superficiale, la lingua dell’Italia, o quantomeno la lingua del Lazio.
+                </ab>
+                <ab n="7" corresp="#par7_P12" xml:lang="it">
+                    In realtà, quando si dà uno sguardo alle iscrizioni falische, volsche, osche, sabine, o alle parole trasmesse 
+                </ab>
+            </div>
+
+            <div type="traduzionepag13" n="2">
+                <ab n="7" corresp="#par7_P12" xml:lang="it">
+                dai grammatici, ci si accorge che il latino romano, che ha avuto così gloriosi fasti nella storia, era un piccolo dialetto locale che finiva quasi letteralmente alle porte di Roma.
+                </ab>
+                <ab n="1" corresp="#par1_P13" xml:lang="it">
+                    L’Italia è piena di altre forme della lingua italica, alcune abbastanza ben conosciute, come l’umbro o l’osco, altre di cui abbiamo un’idea più vaga, come il sabino.
+                </ab>
+                <ab n="2" corresp="#par2_P13" xml:lang="it">
+                    Ora, sappiamo che il dialetto romano ha finito, grazie a cause politiche e letterarie, per spazzar via tutte le altre forme non meno legittime del linguaggio italico.
+                </ab>
+                <ab n="3" corresp="#par3_P13" xml:lang="it">
+                    Tale processo è durato molto a lungo (Pompei); ma infine ha finito per compiersi.
+                </ab>
+                <ab n="4" corresp="#par4_P13" xml:lang="it">
+                    Ugualmente, se ci si vuole fare un’idea sana di ciò che è per esempio il tedesco moderno nella reale estensione del termine, bisogna cominciare col riportare il tedesco ufficiale che noi impariamo non al valore <w rend="italic">zero</w>, ma al valore di una sola unità, tra le centinaia di unità che si potranno distinguere, senza andar più lontano della Svizzera tedesca.
+                </ab>
+                <ab n="5" corresp="#par5_P13" xml:lang="it">
+                    La posizione del francese rispetto ai dialetti [<hi rend="italic">patois</hi>] francesi è, inoltre, esattamente la stessa; cioè che il francese ufficiale rappresenta il dialetto di una sola [regione]: Parigi e l’Île-de-France.
+                </ab>
+            </div>
+        </body>
+
+        <back>
+
+            <!-- Terminologia -->
+                <list type="terminologia">
+                    <label>
+                        <term xml:id="lng" xml:lang="fr">langue</term>
+                        <term ref="#lng" xml:lang="it">lingua</term>
+                    </label>
+                    <item n="1">
+                        <gloss target="#lng" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingua_(linguistica)">Lingua: la lingua è il sistema o forma storicamente determinata attraverso il quale gli appartenenti a una comunità 
+                        si esprimono e comunicano tra loro attraverso l'uso di un determinato linguaggio ovvero un insieme di segni scritti (simboli) e/o parlati (suoni).
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="geo" xml:lang="fr">géographiquement</term>
+                        <term ref="#geo" xml:lang="it">geograficamente</term>
+                    </label>
+                    <item n="2">
+                        <gloss target="#geo" xml:lang="it" source="https://www.treccani.it/vocabolario/geografico/">Geograficamente: avv. geograficaménte, per quanto riguarda la geografia. 
+                        cioè la conformazione o la posizione geografica.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="un" xml:lang="fr">une</term>
+                        <term ref="#un" xml:lang="it">una</term>
+                    </label>
+                    <item n="3">
+                        <gloss target="#un" xml:lang="it" source="https://dizionario.internazionale.it/parola/una">Una: pron.indef, sing, femminile.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="idqe" xml:lang="fr">identique</term>
+                        <term ref="#idqe" xml:lang="it">identica</term>
+                    </label>
+                    <item n="4">
+                        <gloss target="#idqe" xml:lang="it" source="https://www.treccani.it/vocabolario/identico/">Identico: idèntico agg. [dal lat. mediev. identicus, der. di idem «medesimo»]. Interamente uguale.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="idme" xml:lang="fr">idiome</term>
+                        <term ref="#idme" xml:lang="it">idioma</term>
+                    </label>
+                    <item n="5">
+                        <gloss target="#idme" xml:lang="it" source="https://www.treccani.it/vocabolario/ricerca/idioma/">Idioma: lingua propria e particolare di una nazione: [...] o un modo particolare di parlare.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="gnrlm" xml:lang="fr">généralement</term>
+                        <term ref="#gnrlm" xml:lang="it">generalmente</term>
+                    </label>
+                    <item n="6">
+                        <gloss target="#gnrlm" xml:lang="it" source="https://www.treccani.it/vocabolario/generalmente_%28Sinonimi-e-Contrari%29/">Generalmente: avv. generalmente, abitualmente, d'abitudine, di solito, il più delle volte, in generale [...].
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="frmsgeo" xml:lang="fr">formes géographiques</term>
+                        <term ref="#frmsgeo" xml:lang="it">forme geografiche</term>
+                    </label>
+                    <item n="7">
+                        <gloss target="#frmsgeo" xml:lang="it" resp="#GM">Forme geografiche: varietà di forme linguistiche legate ad aree geografiche diverse.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="prlr" xml:lang="fr">parler</term>
+                        <term ref="#prlr" xml:lang="it">parlata</term>
+                    </label>
+                    <item n="8">
+                        <gloss target="#prlr" xml:lang="it" source="https://www.treccani.it/vocabolario/parlata/">Parlata: modo di parlare proprio di una persona o di una comunità, caratterizzato da aspetti della pronuncia, della morfologia, del lessico (ha sign. più generico e meno preciso che dialetto).
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="rgn" xml:lang="fr">région</term>
+                        <term ref="#rgn" xml:lang="it">regione</term>
+                    </label>
+                    <item n="9">
+                        <gloss target="#rgn" xml:lang="it" source="https://www.treccani.it/vocabolario/regione/#:">Regione: ampia parte della superficie terrestre, distinta per caratteri particolari (geografici, storici, antropici) che ne fanno un’unità bene individuata rispetto alle regioni vicine o all’insieme che la comprende.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="etnd" xml:lang="fr">étendue</term>
+                        <term ref="#etnd" xml:lang="it">minuscola</term>
+                    </label>
+                    <item n="10">
+                        <gloss target="#etnd" xml:lang="it" source="https://www.treccani.it/vocabolario/minuscolo/">Minuscolo: piccolo, alquanto piccolo, piccolino.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="frtdalct" xml:lang="fr">fractionnement dialectal</term>
+                        <term ref="#frtdalct" xml:lang="it">frazionamento dialettale</term>
+                    </label>
+                    <item n="11">
+                        <gloss target="#frtdalct" xml:lang="it" resp="#GM">Frazionamento dialettale: suddivisione di una lingua in una molteplicità di dialetti.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="crcntce" xml:lang="fr">circonstance</term>
+                        <term ref="#crcntce" xml:lang="it">circostanza</term>
+                    </label>
+                    <item n="12">
+                        <gloss target="#crcntce" xml:lang="it" source="https://dizionari.corriere.it/dizionario_italiano/C/circostanza.shtml">Circostanza: ognuna delle condizioni oggettive che concorrono a determinare un evento e che lo caratterizzano; Condizione momentanea.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="dffrts" xml:lang="fr">différents</term>
+                        <term ref="#dffrts" xml:lang="it">differenti</term>
+                    </label>
+                    <item n="13">
+                        <gloss target="#crcntce" xml:lang="it" source="https://dizionari.repubblica.it/Italiano/D/differente.html">Differente: che differisce, che è di natura, qualità, aspetto diverso da qualcuno o qualcosa che costituisce termine di confronto.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="dialcts" xml:lang="fr">dialectes</term>
+                        <term ref="#dialcts" xml:lang="it">dialetti</term>
+                    </label>
+                    <item n="14">
+                        <gloss target="#dialcts" xml:lang="it" source="https://it.wikipedia.org/wiki/Dialetto">Dialetto: il termine dialetto indica, a seconda dell'uso: una varietà di una lingua; un idioma locale che ha perduto autonomia rispetto a un altro divenuto sociopoliticamente dominante e riconosciuto come ufficiale (detto anche "lingua tetto"), con cui spesso ha una certa affinità e origini simili.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="lgnltre" xml:lang="fr">langue littéraire</term>
+                        <term ref="#lgnltre" xml:lang="it">lingua letteraria</term>
+                    </label>
+                    <item n="15">
+                        <gloss target="#lgnltre" xml:lang="it" source="https://www.treccani.it/enciclopedia/lingua-letteraria">Lingua letteraria: la lingua letteraria è quella data da tutti i prodotti letterari, in prosa e in versi, letti o recitati, che costituiscono la letteratura fin dalle origini. 
+                        A rigore, la lingua letteraria è definita e distinta da quella non letteraria soltanto dal fatto di essere scritta (anche se è esistita ed esiste una letteratura solo orale) e dalle finalità estetiche, rappresentative, espressive dei testi in cui è usata.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="lngoffadmn" xml:lang="fr">langue officielle administrative</term>
+                        <term ref="#lngoffadmn" xml:lang="it">lingua ufficiale amministrativa</term>
+                    </label>
+                    <item n="16">
+                        <gloss target="#lgnltre" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingua_ufficiale#:">Lingua ufficiale amministrativa: una lingua ufficiale amministrativa è la lingua che uno Stato sovrano ha legalmente adottato come linguaggio giuridico-amministrativo per la produzione dei propri documenti ufficiali, come le leggi, gli atti giudiziari e notarili.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="lngdetrf" xml:lang="fr">langue de trafic</term>
+                        <term ref="#lngdetrf" xml:lang="it">lingua dei traffici</term>
+                    </label>
+                    <item n="17">
+                        <gloss target="#lngdetrf" xml:lang="it" resp="#GM">Lingua dei traffici: lingua adottata per la comunicazione nelle attività commerciali.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="intc" xml:lang="fr">intercourse</term>
+                        <term ref="#intc" xml:lang="it">interscambio</term>
+                    </label>
+                    <item n="18">
+                        <gloss target="#intc" xml:lang="it" source="https://www.treccani.it/vocabolario/interscambio/">Interscambio: scambio reciproco. In economia, l'insieme delle importazioni ed esportazioni tra due paesi.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="pys" xml:lang="fr">pays</term>
+                        <term ref="#pys" xml:lang="it">paese</term>
+                    </label>
+                    <item n="19">
+                        <gloss target="#pys" xml:lang="it" source="https://www.treccani.it/vocabolario/paese/">Paese: regione, largo tratto di territorio, per lo più coltivato e abitato, individuato in base a particolari caratteri fisici, meteorologici, economici, antropici.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="dialct" xml:lang="fr">dialecte</term>
+                        <term ref="#dialct" xml:lang="it">dialetto</term>
+                    </label>
+                    <item n="20">
+                        <gloss target="#dialct" xml:lang="it" source="https://it.wikipedia.org/wiki/Dialetto">Dialetto: il termine dialetto indica, a seconda dell'uso: una varietà di una lingua; un idioma locale che ha perduto autonomia rispetto a un altro divenuto sociopoliticamente dominante e riconosciuto come ufficiale (detto anche "lingua tetto"), con cui spesso ha una certa affinità e origini simili.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="mumtecrt" xml:lang="fr">monuments éctris</term>
+                        <term ref="#mumtecrt" xml:lang="it">monumenti scritti</term>
+                    </label>
+                    <item n="21">
+                        <gloss target="#mumtecrt" xml:lang="it" source="https://www.treccani.it/vocabolario/monumento/">Monumento: segno che fu posto e rimane a ricordo di una persona o di un avvenimento: porre, erigere, costruire un monumento. In partic., opera di scultura, o di architettura decorativa, che si colloca nelle aree pubbliche a celebrazione di persone illustri o in memoria di avvenimenti gloriosi.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="jgns" xml:lang="fr">jargons</term>
+                        <term ref="#jgns" xml:lang="it">gerghi</term>
+                    </label>
+                    <item n="22">
+                        <gloss target="#jgns" xml:lang="it" source="https://www.treccani.it/vocabolario/gergo/">Gergo: forma di linguaggio propria di certi gruppi sociali (sette religiose o politiche, mercanti, persone dello stesso mestiere, e anche vagabondi, malviventi, carcerati, ecc.), usata allo scopo di evitare la comprensione da parte di persone estranee al gruppo.
+                        </gloss>
+                    </item>    
+                    <label>
+                        <term xml:id="crrp" xml:lang="fr">corruptions</term>
+                        <term ref="#crrp" xml:lang="it">corruzioni</term>
+                    </label>
+                    <item n="23">
+                        <gloss target="#crrp" xml:lang="it" source="https://it.wikipedia.org/wiki/Corruzione">Corruzione: la corruzione indica, in senso generico fisico-biologico un processo di degenerazione e decomposizione. 
+                        In ambito sociale è riferito più specificamente alla condotta di un soggetto che induce qualcuno, in cambio di denaro oppure di altre utilità e/o vantaggi, ad agire contro i propri doveri ed obblighi. 
+                        Il fenomeno ha molte implicazioni, soprattutto dal punto di vista sociale e giuridico.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="lngoff" xml:lang="fr">langue officielle</term>
+                        <term ref="#lngoff" xml:lang="it">lingua ufficiale</term>
+                    </label>
+                    <item n="24">
+                        <gloss target="#lngoff" xml:lang="it" source="https://www.treccani.it/vocabolario/ricerca/lingua-ufficiale/">Lingua ufficiale: lingua ufficiale: la lingua diplomatica stabilita come tale in base a specifiche clausole di accordi fra Stati.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="expl" xml:lang="fr">Exemple</term>
+                        <term ref="#expl" xml:lang="it">Esempio</term>
+                    </label>
+                    <item n="25">
+                        <gloss target="#expl" xml:lang="it" source="https://www.treccani.it/vocabolario/esempio/">Esempio: fatto, atto, comportamento o cosa in genere che si propone come modello da imitare o da fuggire, o che comunque si additi all’ammirazione o alla riprovazione.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="latin" xml:lang="fr">latin</term>
+                        <term ref="#latin" xml:lang="it">latino</term>
+                    </label>
+                    <item n="26">
+                        <gloss target="#latin" type="glottonym" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingua_latina">Latino: il latino o lingua latina è una lingua indoeuropea appartenente al gruppo delle lingue latino-falische. Veniva parlata nel Lazio (Lătĭum in latino) almeno dagli inizi del I millennio a.C.. Oggi rimane la lingua ufficiale di un solo stato al mondo, la Città del Vaticano.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="orgns" xml:lang="fr">origines</term>
+                        <term ref="#orgns" xml:lang="it">origini</term>
+                    </label>
+                    <item n="27">
+                        <gloss target="#orgns" xml:lang="it" source="https://www.treccani.it/vocabolario/origine/">Origine: in genere, il primo principio, la prima apparizione o manifestazione di qualche cosa, e il modo con cui essa si è formata.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="obssup" xml:lang="fr">observateur superfciel</term>
+                        <term ref="#obssup" xml:lang="it">osservatore superficiale</term>
+                    </label>
+                    <item n="28">
+                        <gloss target="#obssup" xml:lang="it" resp="#GM">Osservatore superficiale: chi compie una valutazione sbrigativa e approssimativa, non soffermandosi in modo approfondita sulla questione. 
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="inscpt" xml:lang="fr">inscriptions</term>
+                        <term ref="#inscpt" xml:lang="it">iscrizioni</term>
+                    </label>
+                    <item n="29">
+                        <gloss target="#inscpt" xml:lang="it" source="https://www.treccani.it/vocabolario/iscrizione/">Iscrizione: qualsiasi scritta, incisa nella pietra, nel marmo, nel metallo, fusa nel bronzo, ecc., o scolpita su un monumento, per memoria di persone o di avvenimenti, come dedica, intitolazione, ecc.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="falisques" xml:lang="fr">falisques</term>
+                        <term ref="#falisques" xml:lang="it">falische</term>
+                    </label>
+                    <item n="30">
+                        <gloss target="#falisques" type="glottonym" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingua_falisca">Lingua falisca: la lingua falisca è la lingua indoeuropea parlata dai Falisci, una popolazione italica stanziata nell'Etruria meridionale. 
+                        Ci è giunta in un centinaio di iscrizioni, che datano dal VII al II secolo a.C. e che sono scritte in un alfabeto molto simile all'alfabeto latino.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="volsques" xml:lang="fr">volsques</term>
+                        <term ref="#volsques" xml:lang="it">volsche</term>
+                    </label>
+                    <item n="31">
+                        <gloss target="#volsques" type="glottonym" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingua_volsca">Lingua volsca: la lingua volsca, o volsco, è una lingua indoeuropea italica del gruppo osco-umbro, parlata e scritta dal popolo dei Volsci nell'area del Latium. All'interno del gruppo osco-umbro rappresenta una variante della lingua umbra.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="osques" xml:lang="fr">osques</term>
+                        <term ref="#osques" xml:lang="it">osche</term>
+                    </label>
+                    <item n="32">
+                        <gloss target="#osques" type="glottonym" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingua_osca">Lingua Osca: l'osco era una lingua indoeuropea (appartenente alla famiglia osco-umbra) in uso presso gli Osci, nome con cui si intendeva un insieme alquanto eterogeneo di popoli italici. L'area di diffusione della lingua osca comprendeva, in epoca preromana, una larga parte dell'Italia meridionale.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="sabines" xml:lang="fr">sabines</term>
+                        <term ref="#sabines" xml:lang="it">sabine</term>
+                    </label>
+                    <item n="33">
+                        <gloss target="#sabines" type="glottonym" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingua_sabina">Lingua sabina: la lingua sabina era una varietà dialettale della lingua osca, parlata nell'area abitata dall'antico popolo italico dei Sabini nel I millennio a.C. Fa parte dei dialetti sabellici, insieme dialettale delle lingue osco-umbre. Tra i dialetti sabellici è, con il marso, quello che mostra le più precoci e forti influenze del latino.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="mts" xml:lang="fr">mots</term>
+                        <term ref="#mts" xml:lang="it">parole</term>
+                    </label>
+                    <item n="34">
+                        <gloss target="#mts" xml:lang="it" source="https://www.treccani.it/vocabolario/parola/">Parola: complesso di fonemi, cioè di suoni articolati, o anche singolo fonema (e la relativa trascrizione in segni grafici), mediante i quali l’uomo esprime una nozione generica, che si precisa e determina nel contesto di una frase.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="grmm" xml:lang="fr">grammairiens</term>
+                        <term ref="#grmm" xml:lang="it">grammatici</term>
+                    </label>
+                    <item n="35">
+                        <gloss target="#grmm" xml:lang="it" source="https://www.treccani.it/vocabolario/grammatico/">Grammatico: chi insegna o professa grammatica; studioso di problemi grammaticali.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="latinromain" xml:lang="fr">latin romain</term>
+                        <term ref="#latinromain" xml:lang="it">latino romano</term>
+                    </label>
+                    <item n="36">
+                        <gloss target="#latinromain" type="glottonym" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingua_latina">Latino romano: il latino divenne importante come lingua ufficiale dell'Impero romano, usato come lingua franca in particolare nella sua parte occidentale. 
+                        Diverse furono le cose successe in epoca più tarda: nel pieno II secolo, da un lato nacque una moda culturale letteraria che, scavalcando gli ormai classici augustei, guardava alla latinità arcaica; e dall'altro, con autori come Apuleio, cominciò ad acquistare sempre più importanza il latino volgare, la lingua parlata che diventerà la base delle odierne lingue derivate dal latino, appunto lingue neolatine.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="hist" xml:lang="fr">histoire</term>
+                        <term ref="#hist" xml:lang="it">storia</term>
+                    </label>
+                    <item n="37">
+                        <gloss target="#hist" xml:lang="it" source="https://it.wikipedia.org/wiki/Storia">Storia: la storia è la disciplina che si occupa dello studio del passato tramite l'uso di fonti, cioè di documenti, testimonianze e racconti che possano trasmettere il sapere.
+                        Più precisamente, la storia è la ricerca sui fatti del passato e il tentativo di una narrazione continua e sistematica degli stessi fatti, in quanto considerati di importanza per la specie umana.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="frms" xml:lang="fr">formes</term>
+                        <term ref="#frms" xml:lang="it">forme</term>
+                    </label>
+                    <item n="38">
+                        <gloss target="#frms" xml:lang="it" source="https://www.treccani.it/vocabolario/forma/">Forma: l’aspetto esteriore con cui si configura ogni oggetto corporeo o fantastico, o una sua rappresentazione.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="langueitalique" xml:lang="fr">langue italique</term>
+                        <term ref="#langueitalique" xml:lang="it">lingua italica</term>
+                    </label>
+                    <item n="39">
+                        <gloss target="#langueitalique" type="glottonym" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingue_italiche">Lingua italica: le lingue italiche, un tempo considerate una famiglia linguistica indoeuropea unitaria, parallela ad altri suoi sottogruppi, in realtà potrebbero costituire due distinti rami della famiglia indoeuropea, entrambi attestati esclusivamente in territorio italico e, di conseguenza, avvicinate da fenomeni di convergenza.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="ombrien" xml:lang="fr">ombrien</term>
+                        <term ref="#ombrien" xml:lang="it">umbro</term>
+                    </label>
+                    <item n="40">
+                        <gloss target="#ombrien" type="glottonym" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingua_umbra">Lingua umbra: la lingua umbra, o umbro, è una lingua indoeuropea estinta, appartenente al gruppo delle lingue osco-umbre, parlata dall'antico popolo degli Umbri che in epoca classica viveva nel territorio ad est dell'alto corso del fiume Tevere, lungo la dorsale appenninica e fino all'Adriatico. 
+                        È conosciuta soprattutto attraverso le Tavole eugubine, sette tavole di bronzo che contengono le leggi sacre della città umbra di Ikuvium (odierna Gubbio), scritte in gran parte in alfabeto umbro.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="ide" xml:lang="fr">idée</term>
+                        <term ref="#ide" xml:lang="it">idea</term>
+                    </label>
+                    <item n="41">
+                        <gloss target="#ide" xml:lang="it" source="https://www.treccani.it/vocabolario/idea/">Idea: nel significato più ampio e generico, ogni singolo contenuto del pensiero, ogni entità mentale, e più in partic. la rappresentazione di un oggetto alla mente, la nozione che la mente si forma o riceve di una cosa reale o immaginaria.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="dialecteromain" xml:lang="fr">dialecte romain</term>
+                        <term ref="#dialecteromain" xml:lang="it">dialetto romano</term>
+                    </label>
+                    <item n="42">
+                        <gloss target="#dialecteromain" type="glottonym" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingue_dell%27Impero_romano#">Dialetto romano: il latino è una lingua indo-europea del gruppo latino-falisco. Il latino non fu imposto ufficialmente ai popoli sottoposti al dominio romano. Il latino non era un requisito per la cittadinanza romana e non esisteva una scuola statale che lo privilegiasse come mezzo per l'istruzione: la conoscenza e l'uso fluente erano auspicabili semplicemente per il suo prestigio socio-culturale e per motivazioni pratiche.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="caus" xml:lang="fr">causes</term>
+                        <term ref="#caus" xml:lang="it">cause</term>
+                    </label>
+                    <item n="43">
+                        <gloss target="#caus" xml:lang="it" source="https://www.treccani.it/vocabolario/causa/">Causa: fatto o avvenimento che provoca un determinato effetto, che è origine o occasione di un altro fatto.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="pltqs" xml:lang="fr">politiques</term>
+                        <term ref="#pltqs" xml:lang="it">politiche</term>
+                    </label>
+                    <item n="44">
+                        <gloss target="#pltqs" xml:lang="it" source="https://www.treccani.it/enciclopedia/politica">Politica: il complesso delle attività che si riferiscono alla ‘vita pubblica’ e agli ‘affari pubblici’ di una determinata comunità di uomini.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="lttrs" xml:lang="fr">littéraires</term>
+                        <term ref="#lttrs" xml:lang="it">letterarie</term>
+                    </label>
+                    <item n="45">
+                        <gloss target="#lttrs" xml:lang="it" source="https://www.treccani.it/vocabolario/letterario/">Lettarario: di opera dell’ingegno che appartiene alla letteratura.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="lngitaq" xml:lang="fr">langage italique</term>
+                        <term ref="#lngitaq" xml:lang="it">linguaggio italico</term>
+                    </label>
+                    <item n="46">
+                        <gloss target="#lngitaq" xml:lang="it" source="https://dizionari.corriere.it/dizionario_italiano/I/italico.shtml">Linguaggio italico: dell'Italia antica: popoli i. || lingue, dialetti i., gruppo di lingue e dialetti della famiglia indoeuropea parlati dalle popolazioni stanziate in varie zone dell'Italia centro-meridionale prima della conquista romana.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="allemandmoderne" xml:lang="fr">allemand moderne</term>
+                        <term ref="#allemandmoderne" xml:lang="it">tedesco moderno</term>
+                    </label>
+                    <item n="47">
+                        <gloss target="#allemandmoderne" type="glottonym" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingua_tedesca#Tedesco_moderno">Tedesco moderno: il tedesco è una lingua indoeuropea appartenente al ramo occidentale delle lingue germaniche. 
+                        Quando Martin Lutero tradusse la Bibbia (il Nuovo Testamento nel 1522 e il Vecchio Testamento, pubblicato in diversi parti e completato nel 1534), basò la sua traduzione principalmente sul linguaggio standard della burocrazia in Sassonia. Lutero è ritenuto l'artefice principale dellos sviluppo della lingua tedesca moderna. 
+                        Cercando di trovare un fondamento della fede cristiana nella Bibbia, che al suo tempo era conosciuto solo da pochissime persone colte, Lutero, traducendo la Bibbia in tedesco, contribuendha contribuito così a una sua larga diffusione tra il popolo e, in una Germania frantumata da centinaia di stati e dialetti, ha creato un nuovo linguaggio, ancorata al dialetto della Germania centrale e arricchito dal linguaggio popolare. 
+                        Questo linguaggio era comprensibile in tutte le parti della Germania.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="trm" xml:lang="fr">terme</term>
+                        <term ref="#trm" xml:lang="it">termine</term>
+                    </label>
+                    <item n="48">
+                        <gloss target="#trm" xml:lang="it" resp="#GM">Termine: vocabolo
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="allemandofficiel" xml:lang="fr">allemand officiel</term>
+                        <term ref="#allemandofficiel" xml:lang="it">tedesco ufficiale</term>
+                    </label>
+                    <item n="49">
+                        <gloss target="#trm" type="glottonym" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingua_tedesca">Tedesco ufficiale: il tedesco è una lingua indoeuropea appartenente al ramo occidentale delle lingue germaniche. 
+                        È la lingua con il maggior numero di locutori madrelingua del continente europeo e dell'Unione europea, riconosciuta come lingua ufficiale in Germania, Austria, Svizzera, Liechtenstein, Belgio, Lussemburgo, Namibia (ufficiale come lingua regionale), nella Regione italiana del Trentino-Alto Adige e nel voivodato di Opole in Polonia.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="valzer" xml:lang="fr">valeur zéro</term>
+                        <term ref="#valzer" xml:lang="it">valore zero</term>
+                    </label>
+                    <item n="50">
+                        <gloss target="#valzer" xml:lang="it">Valore zero: determinazione di una variabile numerica.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="val" xml:lang="fr">valeur</term>
+                        <term ref="#val" xml:lang="it">valore</term>
+                    </label>
+                    <item n="51">
+                        <gloss target="#val" xml:lang="it" source="https://www.treccani.it/vocabolario/valore/">Valore: importanza che una cosa, materiale o astratta, ha, sia oggettivamente in sé stessa, sia soggettivamente nel giudizio dei singoli.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="unit" xml:lang="fr">unité</term>
+                        <term ref="#unit" xml:lang="it">unità</term>
+                    </label>
+                    <item n="52">
+                        <gloss target="#unit" xml:lang="it" source="https://dizionari.repubblica.it/Italiano/U/unita.html">Unità: elemento distinto e autonomo, preso in considerazione singolarmente o in quanto componente di un insieme.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="dstngr" xml:lang="fr">distinguer</term>
+                        <term ref="#dstngr" xml:lang="it">distinguere</term>
+                    </label>
+                    <item n="53">
+                        <gloss target="#dstngr" xml:lang="it" source="https://www.treccani.it/vocabolario/distinguere/">Distinguere: riconoscere diversi fra due o più oggetti, avvertendo, con i sensi e con l’intelletto, la differenza che è tra essi.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="français" xml:lang="fr">français</term>
+                        <term ref="#français" xml:lang="it">francese</term>
+                    </label>
+                    <item n="54">
+                        <gloss target="#français" type="glottonym" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingua_francese">Francese: il francese è una lingua appartenente al gruppo delle lingue romanze.
+                        </gloss>
+                    </item>
+                      <label>
+                        <term xml:id="patoisfrançais" xml:lang="fr">patois français</term>
+                        <term ref="#patoisfrançais" xml:lang="it">dialetti francesi</term>
+                    </label>
+                    <item n="55">
+                        <gloss target="#patoisfrançais" type="glottonym" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingue_della_Francia#">Dialetti francesi: lista delle lingue della Francia che si basa sul rapporto dell'aprile 1999 del professor Bernard Cerquiglini, preparato per un'eventuale ratifica della Carta europea per le lingue regionali e minoritarie: contiene le lingue originali della Francia metropolitana. I dialetti del francese non sono considerati come lingue regionali.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="françaiseofficiel" xml:lang="fr">française officiel</term>
+                        <term ref="#françaiseofficiel" xml:lang="it">francese ufficiale</term>
+                    </label>
+                    <item n="56">
+                        <gloss target="#françaiseofficiel" type="glottonym" xml:lang="it" source="https://it.wikipedia.org/wiki/Dialetto_franciano#:">Francese ufficiale: il franciano (o francese centrale o francese di Parigi) è il termine usato dai linguisti del XIX secolo applicato in particolare al dialetto della lingua d'oïl parlato nella regione dell'Île-de-France (con Parigi al centro) prima dell'istituzione del francese come lingua standard.
+                        </gloss>
+                    </item>
+                </list>
+
+            <!--lista delle persone-->
+            <listPerson>
+                <head>Persone</head>
+                    <!--Ferdinand De Saussure-->
+                    <person xml:id="FDS">
+                        <persName role="author">
+                            <ref xml:lang="it" target="https://it.wikipedia.org/wiki/Ferdinand_de_Saussure https://www.treccani.it/enciclopedia/ferdinand-de-saussure/" />
+                            <forename>Ferdinand</forename>
+                            <surname>De Saussure</surname>
+                        </persName>
+                        <occupation>linguistic</occupation>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1857-11-26">26 novembre 1857</date>
+                            <placeName ref="#ginevra">
+                                <settlement>Ginevra</settlement>
+                                <country key="CH">Svizzera</country>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="1913-02-22">22 febbraio 1913</date>
+                            <placeName ref="#VLC">
+                                <settlement>Vufflens-le-Château</settlement>
+                                <settlement type="canton" key="vaud">Vaud</settlement>
+                                <country key="CH">Svizzera</country>
+                            </placeName>
+                        </death>
+                    </person>
+
+                    <!--Emanuele Fadda-->
+                    <person xml:id="EF"> 
+                        <persName role="traslator"> 
+                            <forename>Emanuele</forename>
+                            <surname>Fadda</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                        <date when="1972">1972</date>
+                            <placeName ref="#CA">
+                                <settlement type="municipality">Cagliari</settlement>
+                                <settlement type="region" key="sardegna">Sardegna</settlement>
+                                <country key="IT">Italy</country>
+                            </placeName>
+                        </birth> 
+                    </person>
+
+                    <!--Simon Bouquet-->
+                    <person xml:id="SB"> 
+                        <persName role="transcriber"> 
+                            <forename>Simon</forename>
+                            <surname>Bouquet</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1954">1954</date>
+                        </birth> 
+                    </person>
+
+                    <!--Rudolf Engler-->
+                    <person xml:id="RE"> 
+                        <persName role="transcriber"> 
+                            <forename>Rudolf</forename>
+                            <surname>Engler</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1930-10-25">25 ottobre 1930</date>
+                        </birth> 
+                    </person>
+
+                    <!--Antoinette Weil-->
+                    <person xml:id="AW"> 
+                        <persName> 
+                            <forename>Antoinette</forename>
+                            <surname>Weil</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+
+                    <!--alessandro chidichimo-->
+                    <person xml:id="AC">
+                        <persName> 
+                            <forename>Alessandro</forename>
+                            <surname>Chidichimo</surname>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+
+                    <!--Tullio De Mauro-->
+                    <person xml:id="TDM">
+                        <persName> 
+                            <forename>Tullio</forename>
+                            <surname>De Mauro</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1932-03-31">31 marzo 1932</date>
+                            <placeName ref="#TR">
+                                <settlement type="municipality">Torre Annunziata</settlement>
+                                <settlement type="region" key="campania">Campania</settlement>
+                                <country key="IT">Italy</country>
+                            </placeName>
+                        </birth> 
+                        <death>
+                            <date when="2017-01-05">5 gennaio 2017</date>
+                            <placeName ref="#RM">
+                                <placeName>Roma</placeName>
+                                <settlement type="region" key="latium">Lazio</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </death> 
+                    </person>
+
+                    <!--Genny Miola-->
+                    <person xml:id="GM">
+                        <persName role="encoder"> 
+                            <forename>Genny</forename>
+                            <surname>Miola</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <birth>
+                            <date when="1999-04-15">15 aprile 1999</date>
+                            <placeName ref="#SM">
+                                <settlement type="municipality">San Miniato</settlement>
+                                <settlement type="region" key="pisa">Pisa</settlement>
+                                <country key="IT">Italy</country>
+                            </placeName>
+                        </birth>
+                    </person>  
+
+                    <!--Angelo Mario Del Grosso-->
+                    <person xml:id="AMDG"> 
+                        <persName role="coordinator"> 
+                            <forename>Angelo</forename>
+                            <forename>Mario</forename>
+                            <surname>Del Grosso</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1980-02-19">19th February 1980</date>
+                            <placeName ref="#BN">
+                                <settlement type="municipality">Benevento</settlement>
+                                <settlement type="region" key="campania">Campania</settlement>
+                                <country key="IT">Italy</country>
+                            </placeName>
+                        </birth>
+                    </person>
+            </listPerson>
+
+            <!-- Riferimenti bibiografici -->
+            <listBibl>
+                <!--Cahiers-->
+                <bibl xml:id="CFS62" xml:lang="fr" source="https://www.jstor.org/stable/41427851?seq=1#metadata_info_tab_contents">
+                    <author ref="#AC">
+                        <forename>Alessandro</forename>
+                        <surname>Chidichimo</surname>
+                    </author>
+                    <title>Cahiers <persName ref="#FDS">Ferdinand de Saussure</persName></title>
+                    <pubPlace ref="#ginevra">
+                        <placeName ref="#ginevra">Ginevra</placeName>
+                    </pubPlace>
+                    <publisher>Librairie Droz</publisher>
+                    <date when="2009">2009</date>
+                </bibl>
+
+                <!--Corso di linguistica generale-->
+                <bibl xml:id="corsoDiLinguisticagen">
+                    <author ref="#FDS">
+                        <forename>Ferdinand</forename>
+                        <surname>De Saussure</surname>
+                    </author>
+                    <author ref="#TDM">
+                        <forename>Tullio</forename>
+                        <surname>De Mauro</surname>
+                    </author>
+                    <title type="main" level="m">Corso di linguistica generale</title>
+                    <title type="sub">Introduzione, traduzione e commento di Tullio De Mauro</title>
+                    <pubPlace>
+                        <placeName ref="#RM">Roma</placeName>
+                    </pubPlace>
+                    <pubPlace>
+                        <placeName ref="#BA">Bari</placeName>
+                    </pubPlace>
+                    <date when="1976">1976</date>
+                    <publisher>Editori Laterza</publisher>
+                </bibl>
+
+                <!--Bouquet-Engler-->
+                <bibl xml:id="Bouquet-Engler"> 
+                    <title>Écrits de linguistique générale</title>
+                        <author>
+                            <persName ref="#FDS">
+                                <forename>Ferdinand</forename> 
+                                <surname>de Saussure</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName ref="#SB">
+                                <forename>Simon</forename>
+                                <surname>Bouquet</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName ref="#RE">
+                                <forename>Rudolf</forename>
+                                <surname>Engler</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName ref="#AW">
+                                <forename>Antoinette</forename>
+                                <surname>Weil</surname>
+                            </persName>
+                        </author>
+                        <date when="2002">2002</date>
+                        <publisher>Gallimard</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <idno type="ISSN">0302-5160</idno>
+                        <note>
+                            Trascrizione francese del manoscritto
+                        </note>
+                    </bibl>
+            
+                <!--Fadda-->
+                    <bibl xml:id="Fadda">
+                        <title type="main">Lingua e mente sociale</title>
+                        <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                        <author>
+                            <persName ref="#EF">
+                                <forename>Emanuele</forename>
+                                <surname>Fadda</surname>
+                            </persName>
+                        </author>  
+                        <publisher>Bonanno Editore</publisher>
+                        <pubPlace><placeName ref="ACI">Acireale</placeName></pubPlace>
+                        <note>
+                            Trascrizione italiana del manoscritto
+                        </note>
+                    </bibl>
+            </listBibl>
+
+            <!--lista delle organizzazioni-->
+            <listOrg>
+                <head>Lingue</head>
+                    <org xml:id="latini" role="lingua">
+                        <orgName ref="https://it.wikipedia.org/wiki/Lingua_latina">Latino</orgName>
+                        <desc>Il latino o lingua latina è una lingua indoeuropea appartenente al gruppo delle lingue latino-falische.</desc>
+                    </org>
+                    <org xml:id="falisci" role="lingua">
+                        <orgName ref="https://it.wikipedia.org/wiki/Lingua_falisca">Falisco</orgName>
+                        <desc>La lingua falisca è la lingua indoeuropea parlata dai Falisci, una popolazione italica stanziata nell'Etruria meridionale.</desc>
+                    </org>
+                    <org xml:id="volsci" role="lingua">
+                        <orgName ref="https://it.wikipedia.org/wiki/Lingua_volsca">Volsco</orgName>
+                        <desc>La lingua volsca, o volsco, è una lingua indoeuropea italica del gruppo osco-umbro, parlata e scritta dal popolo dei Volsci nell'area del Latium.</desc>
+                    </org>
+                    <org xml:id="osci" role="lingua">
+                        <orgName ref="https://it.wikipedia.org/wiki/Lingua_osca">Osco</orgName>
+                        <desc>L'osco era una lingua indoeuropea (appartenente alla famiglia osco-umbra) in uso presso gli Osci, nome con cui si intendeva un insieme alquanto eterogeneo di popoli italici.</desc>
+                    </org>
+                    <org xml:id="sabini" role="lingua">
+                        <orgName ref="https://it.wikipedia.org/wiki/Lingua_sabina">Sabino</orgName>
+                        <desc>La lingua sabina era una varietà dialettale della lingua osca, parlata nell'area abitata dall'antico popolo italico dei Sabini nel I millennio a.C. Fa parte dei dialetti sabellici, insieme dialettale delle lingue osco-umbre.</desc>
+                    </org>
+                    <org xml:id="umbri" role="lingua">
+                        <orgName ref="https://it.wikipedia.org/wiki/Lingua_umbra">Umbro</orgName>
+                        <desc>La lingua umbra, o umbro, è una lingua indoeuropea estinta, appartenente al gruppo delle lingue osco-umbre, parlata dall'antico popolo degli Umbri che in epoca classica viveva nel territorio ad est dell'alto corso del fiume Tevere, lungo la dorsale appenninica e fino all'Adriatico.</desc>
+                    </org>
+                    <org xml:id="linguaita" role="lingua">
+                        <orgName ref="https://it.wikipedia.org/wiki/Lingua_proto-italica">Lingua italica</orgName>
+                        <desc>La lingua proto-italica è l'antenata delle lingue italiche, la più nota delle quali è il latino.</desc>
+                    </org>
+                    <org xml:id="tedesco" role="lingua">
+                        <orgName ref="https://it.wikipedia.org/wiki/Lingua_tedesca">Tedesco</orgName>
+                        <desc>Il tedesco è una lingua indoeuropea appartenente al ramo occidentale delle lingue germaniche.</desc>
+                    </org>
+                    <org xml:id="francese" role="lingua">
+                        <orgName ref="https://it.wikipedia.org/wiki/Lingua_francese">Francese</orgName>
+                        <desc>Il francese è una lingua appartenente al gruppo delle lingue romanze.</desc>
+                    </org>
+            </listOrg>
+
+        <!--lista dei luoghi-->
+            <listPlace>
+                <head>Luoghi</head>
+                    <place xml:id="ginevra">
+                        <placeName>Ginevra</placeName>
+                        <settlement type="canton">Ginevra</settlement>
+                        <country key="CH">Svizzera</country>
+                    </place>
+                    <place xml:id="suisseall">
+                        <placeName>Svizzera tedesca</placeName>
+                        <settlement>Svizzera tedesca</settlement>
+                        <country key="CH">Svizzera</country>
+                    </place>
+                    <place xml:id="RM">
+                        <placeName>Roma</placeName>
+                        <settlement type="region" key="latium">Lazio</settlement>
+                        <country key="IT">Italia</country>
+                    </place>
+                    <place xml:id="BA">
+                        <placeName>Bari</placeName>
+                        <settlement type="region" key="puglia">Puglia</settlement>
+                        <country key="IT">Italia</country>
+                    </place>
+                    <place xml:id="PO">
+                        <placeName>Pompei</placeName>
+                        <settlement type="region" key="campania">Campania</settlement>
+                        <country key="IT">Italia</country>
+                    </place>
+                    <place xml:id="PA">
+                        <placeName>Paris</placeName>
+                        <settlement type="region" key="île-de-france">Île-de-France</settlement>
+                        <country key="FR">Francia</country>
+                    </place>
+                    <place xml:id="VLC">
+						<placeName>Vufflens-le-Château</placeName>
+						<settlement type="canton" key="vaud">Vaud</settlement>
+						<country key="CH">Svizzera</country>
+					</place>
+                    <place xml:id="BN">
+						<placeName>Benevento</placeName>
+						<settlement type="region" key="campania">Campania</settlement>
+						<country key="IT">Italia</country>
+					</place>
+                    <place xml:id="CA">
+						<placeName>Cagliari</placeName>
+						<settlement type="region" key="sardegna">Sardegna</settlement>
+						<country key="IT">Italia</country>
+					</place>
+                    <place xml:id="SM">
+						<placeName>San Miniato</placeName>
+						<settlement type="region" key="pisa">Pisa</settlement>
+						<country key="IT">Italia</country>
+					</place>
+                    <place xml:id="TR">
+                        <placeName>Torre Annunziata</placeName>
+                        <settlement type="region" key="campania">Campania</settlement>
+                        <country key="IT">Italy</country>
+                    </place>
+                    <place xml:id="ACI">
+                        <placeName>Acireale</placeName>
+                        <settlement type="region" key="sicilia">Sicilia</settlement>
+                        <country key="IT">Italy</country>
+                    </place>
+            </listPlace>
+        </back>
+    </text>
+</TEI>

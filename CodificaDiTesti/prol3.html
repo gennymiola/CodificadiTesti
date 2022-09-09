@@ -1,0 +1,928 @@
+<!DOCTYPE HTML><html xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Progetto di Codifica dei Testi - Prolusioni 12 e 13 di F.De Saussure -</title>
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"><script src="https://code.jquery.com/jquery-3.6.0.js"></script><script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script><script src="prol.js"></script><link href="prol3.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      <header>
+         <h2>Trois premières conférences à l'Université (cours d'ouverture, novembre 1891)</h2>
+         <nav class="navMenu">
+            <ul>
+               <li><a href="#Pagina12">PAGINA 12</a></li>
+               <li><a href="#Pagina13">PAGINA 13</a></li>
+               <li><a href="#intro">INFO GENERALI</a></li>
+               <li><a href="#appendice">APPENDICE</a></li>
+            </ul>
+         </nav>
+      </header>
+      <div class="container" id="intro">
+         <div>
+            <h3>Caratteristiche generali</h3>
+            <p>Manoscritto ad opera di Ferdinand De Saussure</p>
+         </div>
+         <div><b>Titolo: </b><span>Trois premières conférences à l'Universitè</span><br><b>Autore: </b><span>Ferdinand De Saussure</span><br><b>Lingua: </b><span>francese</span><br><b>Data: </b><span><span>novembre 1891</span></span><br><b>Luogo: </b><span>Ginevra</span></div><br><div>
+            <div>
+               <h3>Pratiche editoriali adottate</h3>
+               <div><b>Normalizzazione dei fenomeni: </b><span>Per le normalizzazioni è stato utilizzato l'elemento choice, in modo da racchiudere gli elementi orig e reg e mantenere nell'edizione digitale i valori originali e quelli nuovi</span><br><b>Punteggiatura: </b><span>Alcuni segni di punteggiatura sono stati mantenuti come contenuto all'interno del
+                     testo</span><br><b>Sillabazione: </b><span>Sono stati mantenuti, dove presenti nell'originiale, tutti i tutti i trattini che
+                     segnalano la sillabazione di fine riga</span><br><b>Segmentazione: </b><span>Il testo è stato segmentato in paragrafi usando l'elemento ab e conta 7 paragrafi per la prima pagina e 5 per la seconda</span></div>
+            </div>
+         </div>
+         <div>
+            <div>
+               <h3>Descrizione fisica</h3>
+               <div><b>Supporto: </b><span>fogli di carta</span><br><b>Quantità: </b><span>67 pagine ed un foglietto, in particolare 30 + 15 + 22 pagine + 1 foglietto</span><br><b>Condizioni di conservazione: </b><span>Alcune pagine presentano degli strappi ai bordi e alcune sono leggermente macchiate.
+                     Tuttavia, i fogli risultano essere stati conservati in buone condizioni.</span><br><b>Layout:</b><span>
+                     Le pagine hanno in media tra le 20 e le 30 righe e presentano molte note a margine
+                     e al di sopra del testo, cancellature e correzioni.
+                     </span><br><b>Mani: </b><span>Il testo è stato scritto interamente dalla mano dell'autore Ferdinand de Saussure</span></div>
+            </div>
+         </div>
+         <div>
+            <div>
+               <h3>Storia del manoscritto</h3>
+               <div><b>Origine: </b><span>
+                     Gli appunti furono scritti da Ferdinand de Saussure e utilizzati durante le prime tre lezioni del corso di <i>Phonétique du grec et du latin</i>, che si tennero in data 6, 10
+                     							e 13 novembre 1891, presso Ginevra. Gli appunti erano, probabilmente, destinati alla pubblicazione di una <i>brochure</i>.
+                     </span><br><b>Acquisizione: </b><span>
+                     Il testo originale venne in seguito acquisito dalla Biblioteca di Ginevra
+                     </span></div>
+            </div>
+         </div>
+      </div>
+      <div id="bottoni"><button type="button" id="terminologia">Terminologia</button><button type="button" id="sostituzioni">Sostituzioni</button><button type="button" id="cancellazioni">Cancellazioni</button><button type="button" id="aggiunte">Aggiunte</button><button type="button" id="abbreviazioni">Abbreviazioni</button><button type="button" id="regolarizzazioni">Regolarizzazioni</button></div>
+      <div class="p12" id="Pagina12">
+         <h3>Pagina 12</h3>
+         <div class="column">
+            <div class="img-wrapper"><img src="immagini/pagina12.jpg" id="fronte12"></div>
+            <div class="img-wrapper"><img src="immagini/pagina12R.jpg" id="retro12" class="nascondi"></div>
+            <div class="retropag12"><button type="button" id="retro_pag12"> Mostra retro </button></div>
+         </div>
+         <div class="column">
+            <div class="trascrizione_p12">
+               <div id="pagina_12"></div><span class="paragrafo" id="1">
+                   
+                  <br><span class="numeroRiga" id="P12_riga1"><b>1</b></span>
+                  Ainsi se fait que nous ne surprenons 
+                  <reg>,</reg>
+                  <br><span class="numeroRiga" id="P12_riga2"><b>2</b></span>
+                  <del>peu</del> on peut le dire 
+                  <reg>,</reg> nulle part une 
+                  <term>langue</term>
+                  <br><span class="numeroRiga" id="P12_riga3"><b>3</b></span>
+                  qui <del>è <span class="gap">?</span></del> nous apparaisse comme
+                  <br><span class="numeroRiga" id="P12_riga4"><b>4</b></span>
+                  
+                  <term><abbr>géographiqmt</abbr><span class="expan">
+                        -<i>géographiquement</i>-
+                        </span></term> 
+                  <term>une</term> et 
+                  <term>identique</term>;
+                  </span><span class="paragrafo" id="2">
+                  <abbr>tt</abbr><span class="expan">
+                     -<i>tout</i>-
+                     </span> 
+                  <term>idiome</term>
+                  <br><span class="numeroRiga" id="P12_riga5"><b>5</b></span>
+                  
+                  <sic>quel’</sic>
+                  <corr>que l'</corr>on peut citer
+                  <orig>,</orig> n’est 
+                  <term>
+                     <add>généralement</add>
+                  </term> qu'<u>une des 
+                     <add>
+                        <sic>multi</sic>
+                        <corr>multiples</corr>
+                     </add> 
+                     <term>formes</term></u> 
+                  <br><span class="numeroRiga" id="P12_riga6"><b>6</b></span>
+                  
+                  <term>géographiques</term> 
+                  <del><span class="gap">?</span></del> sous lesquelles 
+                  <br><span class="numeroRiga" id="P12_riga7"><b>7</b></span>
+                  se présente le même 
+                  <term>parler</term> 
+                  <add>
+                     <orig>d</orig>
+                     <reg> dans</reg> 
+                     <orig>1</orig>
+                     <reg> une</reg> 
+                     <term>région</term> 
+                     <orig>1</orig>
+                     <reg>un</reg> peu 
+                     <term>étendue</term>
+                  </add>.
+                  </span><span class="paragrafo" id="3">
+                  Partout nous
+                  <br><span class="numeroRiga" id="P12_riga8"><b>8</b></span>
+                  constatons le 
+                  <term>fractionnement dialectal</term>.
+                  </span><span class="paragrafo" id="4">
+                  Il nous
+                  <br><span class="numeroRiga" id="P12_riga9"><b>9</b></span>
+                  est souvent voilé par 
+                  <subst><del>le fais</del><add> cette
+                        <term> circonstance</term>
+                     </add>
+                  </subst> qu'un des
+                  <br><span class="numeroRiga" id="P12_riga10"><b>10</b></span>
+                  
+                  <term><abbr>differts</abbr><span class="expan">
+                        -<i>différentes</i>-
+                        </span></term> 
+                  <term>dialectes</term> a pris, soit comme 
+                  <term>langue</term>
+                  <br><span class="numeroRiga" id="P12_riga11"><b>11</b></span>
+                  
+                  <term>littéraire</term>, soit comme 
+                  <term>langue officielle adminis-</term>
+                  
+                  <br><span class="numeroRiga" id="P12_riga12"><b>12</b></span>
+                  
+                  <term>trative</term>, soit comme 
+                  <term>langue de trafic</term> et <del> de</del>
+                  <br><span class="numeroRiga" id="P12_riga13"><b>13</b></span>
+                  <del><span class="gap">?</span></del> d'<u>
+                     <term>intercourse</term></u> entre les 
+                  <term><abbr>diff.</abbr><span class="expan">
+                        -<i>différentes</i>-
+                        </span></term> parties du 
+                  <br><span class="numeroRiga" id="P12_riga14"><b>14</b></span>
+                  
+                  <term>pays</term>, une situation prééminente qui 
+                  <br><span class="numeroRiga" id="P12_riga15"><b>15</b></span>
+                  fait que ce 
+                  <term>dialecte</term> seul nous est parvenu
+                  <br><span class="numeroRiga" id="P12_riga16"><b>16</b></span>
+                  <del>par</del> 
+                  <orig>d</orig>
+                  <reg>dans</reg> des 
+                  <term>monuments éctris</term>, ou qui fait que
+                  <br><span class="numeroRiga" id="P12_riga17"><b>17</b></span>
+                  les autres 
+                  <term>dialectes</term> sont considérés comme
+                  <br><span class="numeroRiga" id="P12_riga18"><b>18</b></span>
+                  des 
+                  <subst><del><span class="gap">?</span></del><add>
+                        <term> jargons</term>
+                     </add>
+                  </subst> informes et horribles, <del>réguliè-</del>
+                  <br><span class="numeroRiga" id="P12_riga19"><b>19</b></span>
+                  <del>rement</del> qu’on se figure être des 
+                  <term>corrup-</term>
+                  <br><span class="numeroRiga" id="P12_riga20"><b>20</b></span>
+                  
+                  <term>tions</term> de la 
+                  <term>langue officielle</term>.
+                  </span><span class="paragrafo" id="5">
+                  Enfin il arrive 
+                  <br><span class="numeroRiga" id="P12_riga21"><b>21</b></span>
+                  souvent
+                  <reg>,</reg> 
+                  <orig>2°</orig>
+                  <reg>deuxièmement</reg>
+                  <reg>,</reg> que la 
+                  <term>langue</term> adoptée <abbr>cm</abbr><span class="expan">
+                     -<i>comme</i>-
+                     </span> 
+                  <term><abbr>lgn litt.</abbr><span class="expan">
+                        -<i>langue littéraire</i>-
+                        </span></term> arrive à tuer
+                  <reg>[ ].</reg>
+                  <br><span class="numeroRiga" id="P12_riga22"><b>22</b></span>
+                  
+                  <orig>—</orig>, <del>Ainsi [ l'allemand moderne, l'allemand</del>
+                  <br><span class="numeroRiga" id="P12_riga23"><b>23</b></span>
+                  <del><u>réel</u>, est représenté non pas par la langue</del>
+                  <br><span class="numeroRiga" id="P12_riga24"><b>24</b></span>
+                  <del>ensupreé 
+                     <orig>d</orig>
+                     <reg>dans</reg> les écodes, mais</del>
+                  </span><span class="paragrafo" id="6">
+                  <br><span class="numeroRiga" id="P12_riga25"><b>25</b></span>
+                  
+                  <add>
+                     <term><abbr>Ex.</abbr><span class="expan">
+                           -<i>Exemple</i>-
+                           </span></term> 
+                     <reg>:</reg> il peut sembler</add> 
+                  <orig>que vous possédez,  le 
+                     <term>
+                        <glott>latin</glott>
+                     </term> 
+                     <add>que vous connaissez</add>
+                  </orig>
+                  <reg>que le 
+                     <term>
+                        <glott>latin</glott>
+                     </term>, que vous possédez, 
+                     <add>que vous connaissez</add>
+                  </reg>, pris à ses 
+                  <term>origines</term>, peut
+                  <br><span class="numeroRiga" id="P12_riga26"><b>26</b></span>
+                  <del>sembler <abbr>pr</abbr><span class="expan">
+                        -<i>pour</i>-
+                        </span> 
+                     <orig>1</orig>
+                     <reg> un</reg> 
+                     <term><abbr>ob.</abbr><span class="expan">
+                           -<i>observateur</i>-
+                           </span> superfciel</term> être soit la</del>
+                  <br><span class="numeroRiga" id="P12_riga27"><b>27</b></span>
+                  
+                  <term>langue</term> 
+                  <sic>del'</sic>
+                  <corr>de l'</corr>
+                  <place>Italie</place>, soit au moins la  
+                  <term>langue</term>
+                  <br><span class="numeroRiga" id="P12_riga28"><b>28</b></span>
+                  du 
+                  <place>Latium</place>.
+                  </span><span class="paragrafo" id="7">
+                  En réalité, 
+                  <orig>q'</orig>
+                  <reg>quand</reg> on jette 
+                  <orig>1</orig>
+                  <reg>un</reg> <abbr>cp</abbr><span class="expan">
+                     -<i>coup</i>-
+                     </span> d’œil
+                  <br><span class="numeroRiga" id="P12_riga29"><b>29</b></span>
+                  sur les 
+                  <term>inscriptions</term> 
+                  <term>
+                     <glott>falisques</glott>
+                  </term>, 
+                  <term>
+                     <glott>volsques</glott>
+                  </term>,
+                  <br><span class="numeroRiga" id="P12_riga30"><b>30</b></span>
+                  
+                  <term>
+                     <glott>osques</glott>
+                  </term>, 
+                  <term>
+                     <glott>sabines</glott>
+                  </term> 
+                  <orig>—</orig> ou sur les 
+                  <term>mots</term> transmis par
+                  </span></div>
+         </div>
+      </div>
+      <div class="traduzione_p12">
+         <h3 id="trad">Traduzione:</h3><span class="paragrafo_trad" id="1">
+            Così accade che noi non ritroviamo, si può dire, da nessuna parte una lingua che ci
+            appaia come geograficamente una e identica;
+            </span><span class="paragrafo_trad" id="2">
+            ogni idioma che si può citare non è generalmente che <i>una delle molteplici forme</i> geografiche sotto le quali si presenta la stessa parlata in una regione non minuscola.
+            </span><span class="paragrafo_trad" id="3">
+            Dovunque constatiamo il frazionamento dialettale.
+            </span><span class="paragrafo_trad" id="4">
+            Esso ci è spesso offuscato dalla circostanza che uno dei differenti dialetti ha preso,
+            sia come lingua letteraria, sia come lingua ufficiale amministrativa, sia come lingua
+            dei traffici e d’<i>interscambio</i> tra le differenti parti del paese, una situazione preeminente che fa sì che solo
+            quel dialetto ci è pervenuto attraverso monumenti scritti, o che fa sì che gli altri
+            dialetti siano considerati come gerghi informi e orribili, che ci si figura essere
+            delle corruzioni della lingua ufficiale.
+            </span><span class="paragrafo_trad" id="5">
+            Alla fin fine succede spesso, in secondo luogo, che la lingua adottata come lingua
+            letteraria arriva ad uccidere [ ].
+            </span><span class="paragrafo_trad" id="6">
+            Esempio: il latino, che voi possedete, che voi conoscete, preso alle sue origini può
+            sembrare, ad un osservatore superficiale, la lingua dell’Italia, o quantomeno la lingua
+            del Lazio.
+            </span><span class="paragrafo_trad" id="7">
+            In realtà, quando si dà uno sguardo alle iscrizioni falische, volsche, osche, sabine,
+            o alle parole trasmesse 
+            </span></div>
+      <div class="p13" id="Pagina13">
+         <h3>Pagina 13</h3>
+         <div class="column">
+            <div class="img-wrapper"><img src="immagini/pagina13.jpg" id="fronte13"></div>
+            <div class="img-wrapper"><img src="immagini/pagina13R.jpg" id="retro13" class="nascondi"></div>
+            <div class="retropag13"><button type="button" id="retro_pag13"> Mostra retro </button></div>
+         </div>
+         <div class="column">
+            <div class="trascrizione_p13">
+               <div id="pagina_13"></div><span class="paragrafo" id="7">
+                  <br><span class="numeroRiga" id="P13_riga1"><b>1</b></span>
+                  les 
+                  <term><abbr>gramm.</abbr><span class="expan">
+                        -<i>grammairiens</i>-
+                        </span></term> 
+                  <reg>,</reg>on s’aperçoit que le 
+                  <term>
+                     <glott>latin romain</glott>
+                  </term>
+                  <reg>,</reg>
+                  <br><span class="numeroRiga" id="P13_riga2"><b>2</b></span>
+                  qui a eu de si glorieuses destinées 
+                  <orig>d</orig>
+                  <reg>dans</reg> l'
+                  <term><abbr>hist.</abbr><span class="expan">
+                        -<i>histoire</i>-
+                        </span></term> 
+                  <reg>,</reg> 
+                  <br><span class="numeroRiga" id="P13_riga3"><b>3</b></span>
+                  
+                  <add>était 
+                     <orig>1</orig>
+                     <reg>un</reg>
+                  </add> 
+                  
+                  <mod>
+                     <add>petit 
+                        <term><abbr>dial</abbr><span class="expan">
+                              -<i>dialecte</i>-
+                              </span></term> local</add> <del>finissa</del></mod>
+                  finissant presque <abbr>litéralmt</abbr><span class="expan">
+                     -<i>littéralement</i>-
+                     </span> aux 
+                  <br><span class="numeroRiga" id="P13_riga4"><b>4</b></span>
+                  portes de 
+                  <place>Rome</place>.
+                  </span><span class="paragrafo" id="1">
+                  L'
+                  <place>Italie</place> est remplie
+                  <br><span class="numeroRiga" id="P13_riga5"><b>5</b></span>
+                  d’autres 
+                  <term>formes</term> de la 
+                  <term>
+                     <glott>langue italique</glott>
+                  </term>, les
+                  <br><span class="numeroRiga" id="P13_riga6"><b>6</b></span>
+                  unes assez bien connues
+                  <reg>,</reg> comme l'
+                  <term>
+                     <glott>ombrien</glott>
+                  </term> ou <del> le</del>
+                  <br><span class="numeroRiga" id="P13_riga7"><b>7</b></span>
+                  l'
+                  <term>
+                     <glott>osque</glott>
+                  </term>, les autres <del> <span class="gap">?</span></del> dont <abbr>ns</abbr><span class="expan">
+                     -<i>nous</i>-
+                     </span>
+                  n’avons qu’
+                  <orig>1</orig>
+                  <reg>une</reg> 
+                  <term>idée</term> 
+                  <br><span class="numeroRiga" id="P13_riga8"><b>8</b></span>
+                  <abbr>+</abbr><span class="expan">
+                     -<i>plus</i>-
+                     </span> vague comme le 
+                  <term>
+                     <glott>sabin</glott>
+                  </term>.
+                  </span><span class="paragrafo" id="2">
+                  <br><span class="numeroRiga" id="P13_riga9"><b>9</b></span>
+                   Or remarquons que le 
+                  <term>
+                     <glott><abbr>dial.</abbr><span class="expan">
+                           -<i>dialecte</i>-
+                           </span> romain</glott>
+                  </term> a
+                  <br><span class="numeroRiga" id="P13_riga10"><b>10</b></span>
+                  fini, grâce à des 
+                  <term>causes</term> 
+                  <term><abbr>politiq.</abbr><span class="expan">
+                        -<i>politiques</i>-
+                        </span></term> et 
+                  <term><abbr>littér.</abbr><span class="expan">
+                        -<i>littéraires</i>-
+                        </span></term>, 
+                  <br><span class="numeroRiga" id="P13_riga11"><b>11</b></span>
+                  par balayer <abbr>ttes</abbr><span class="expan">
+                     -<i>toutes</i>-
+                     </span> les autres 
+                  <term>formes</term> non
+                  <br><span class="numeroRiga" id="P13_riga12"><b>12</b></span>
+                  moins légitimes du 
+                  <term>langage <abbr>italiq.</abbr><span class="expan">
+                        -<i>italique</i>-
+                        </span></term>
+                  </span><span class="paragrafo" id="3">
+                  
+                  <orig>—</orig> 
+                  <date>Cela</date>
+                  <br><span class="numeroRiga" id="P13_riga13"><b>13</b></span>
+                  
+                  <date>a duré fort longtemps</date> (
+                  <place>Pompéi</place>); mais enfin 
+                  <br><span class="numeroRiga" id="P13_riga14"><b>14</b></span>
+                  cela a fini par se 
+                  <sic>prodi</sic>
+                  <corr>produire</corr>.
+                  </span><span class="paragrafo" id="4">
+                  <br><span class="numeroRiga" id="P13_riga15"><b>15</b></span>
+                   De même, 
+                  <orig>—</orig> si l’on veut se faire
+                  <br><span class="numeroRiga" id="P13_riga16"><b>16</b></span>
+                  
+                  <orig>1</orig>
+                  <reg>une</reg> idée saine de ce qu’est par 
+                  <term><abbr>ex.</abbr><span class="expan">
+                        -<i>exemple</i>-
+                        </span></term> l'
+                  <term>
+                     <glott><abbr>allemd</abbr><span class="expan">
+                           -<i>allemand</i>-
+                           </span></glott>
+                  </term>
+                  <br><span class="numeroRiga" id="P13_riga17"><b>17</b></span>
+                  
+                  <term>
+                     <glott>moderne</glott>
+                  </term> dans 
+                  <mod><del>tte</del> 
+                     <add>la véritable</add>
+                  </mod> 
+                  <orig>l'</orig> étendue
+                  <del> <span class="gap">?</span> la valeur </del>
+                  <br><span class="numeroRiga" id="P13_riga18"><b>18</b></span>
+                  du 
+                  <term>terme</term>
+                  <orig>;</orig>
+                  <reg>,</reg> il faut commencer par ramener 
+                  <br><span class="numeroRiga" id="P13_riga19"><b>19</b></span>
+                  l'
+                  <term>
+                     <glott>allemand officiel</glott>
+                  </term> que <abbr>ns</abbr><span class="expan">
+                     -<i>nous</i>-
+                     </span> apprenons 
+                  <mod><del> à la</del></mod>
+                  <br><span class="numeroRiga" id="P13_riga20"><b>20</b></span>
+                  
+                  <mod><del>valeur</del> 
+                     <add>non pas à la</add>
+                  </mod> 
+                  <term>valeur zéro</term>, mais à
+                  <br><span class="numeroRiga" id="P13_riga21"><b>21</b></span>
+                  la 
+                  <term>valeur</term> d'
+                  <orig>1</orig>
+                  <reg>une</reg> seule 
+                  <term>unité</term>, parmi les
+                  <br><span class="numeroRiga" id="P13_riga22"><b>22</b></span>
+                  centaines d’
+                  <term>unités</term> que l’on pourra 
+                  <term>distinguer</term>,
+                  <br><span class="numeroRiga" id="P13_riga23"><b>23</b></span>
+                  
+                  <orig>—</orig> sans aller <abbr>+</abbr><span class="expan">
+                     -<i>plus</i>-
+                     </span> loin que la 
+                  <place>Suisse allemande</place>.
+                  </span><span class="paragrafo" id="5">
+                  <br><span class="numeroRiga" id="P13_riga24"><b>24</b></span>
+                   <del>Il <span class="gap">?</span> comme</del> La position du 
+                  <term>
+                     <glott>français</glott>
+                  </term>
+                  <br><span class="numeroRiga" id="P13_riga25"><b>25</b></span>
+                  vis-à-vis des 
+                  <term>
+                     <glott>patois français</glott>
+                  </term> est encore
+                  <br><span class="numeroRiga" id="P13_riga26"><b>26</b></span>
+                  <abbr>exactt</abbr><span class="expan">
+                     -<i>exactement</i>-
+                     </span> la même; c’est-à-dire que le 
+                  <term>
+                     <glott>français</glott>
+                  </term>
+                  <br><span class="numeroRiga" id="P13_riga27"><b>27</b></span>
+                  
+                  <term>
+                     <glott>officiel</glott>
+                  </term> représente le 
+                  <term>dialecte</term> d'
+                  <orig>1</orig>
+                  <reg>une</reg> seule 
+                  <br><span class="numeroRiga" id="P13_riga28"><b>28</b></span>
+                  
+                  <reg>[
+                     <term>région</term>]:</reg> 
+                  <place>Paris</place> et l'
+                  <place>Île-de-France</place> 
+                  <orig>—</orig>
+                  <reg>.</reg>
+                  </span></div>
+         </div>
+      </div>
+      <div class="traduzione_p13">
+         <h3>Traduzione:</h3><span class="paragrafo_trad" id="7">
+            dai grammatici, ci si accorge che il latino romano, che ha avuto così gloriosi fasti
+            nella storia, era un piccolo dialetto locale che finiva quasi letteralmente alle porte
+            di Roma.
+            </span><span class="paragrafo_trad" id="1">
+            L’Italia è piena di altre forme della lingua italica, alcune abbastanza ben conosciute,
+            come l’umbro o l’osco, altre di cui abbiamo un’idea più vaga, come il sabino.
+            </span><span class="paragrafo_trad" id="2">
+            Ora, sappiamo che il dialetto romano ha finito, grazie a cause politiche e letterarie,
+            per spazzar via tutte le altre forme non meno legittime del linguaggio italico.
+            </span><span class="paragrafo_trad" id="3">
+            Tale processo è durato molto a lungo (Pompei); ma infine ha finito per compiersi.
+            </span><span class="paragrafo_trad" id="4">
+            Ugualmente, se ci si vuole fare un’idea sana di ciò che è per esempio il tedesco moderno
+            nella reale estensione del termine, bisogna cominciare col riportare il tedesco ufficiale
+            che noi impariamo non al valore zero, ma al valore di una sola unità, tra le centinaia di unità che si potranno distinguere,
+            senza andar più lontano della Svizzera tedesca.
+            </span><span class="paragrafo_trad" id="5">
+            La posizione del francese rispetto ai dialetti [<i>patois</i>] francesi è, inoltre, esattamente la stessa; cioè che il francese ufficiale rappresenta
+            il dialetto di una sola [regione]: Parigi e l’Île-de-France.
+            </span></div>
+      <div id="bottoni2"><button type="button" id="glotto"> Glottonimi</button><button type="button" id="pl"> Luoghi</button><button type="button" id="pr"> Persone</button><button type="button" id="termini"> Keywords</button></div>
+      <div class="contenitore">
+         <div id="div_glott">
+            <h3>Glottonimi individuati</h3>
+            <li><b>Latino: </b>Il latino o lingua latina è una lingua indoeuropea appartenente al gruppo delle lingue
+               latino-falische.</li>
+            <li><b>Falisco: </b>La lingua falisca è la lingua indoeuropea parlata dai Falisci, una popolazione italica
+               stanziata nell'Etruria meridionale.</li>
+            <li><b>Volsco: </b>La lingua volsca, o volsco, è una lingua indoeuropea italica del gruppo osco-umbro,
+               parlata e scritta dal popolo dei Volsci nell'area del Latium.</li>
+            <li><b>Osco: </b>L'osco era una lingua indoeuropea (appartenente alla famiglia osco-umbra) in uso presso
+               gli Osci, nome con cui si intendeva un insieme alquanto eterogeneo di popoli italici.</li>
+            <li><b>Sabino: </b>La lingua sabina era una varietà dialettale della lingua osca, parlata nell'area abitata
+               dall'antico popolo italico dei Sabini nel I millennio a.C. Fa parte dei dialetti sabellici,
+               insieme dialettale delle lingue osco-umbre.</li>
+            <li><b>Umbro: </b>La lingua umbra, o umbro, è una lingua indoeuropea estinta, appartenente al gruppo
+               delle lingue osco-umbre, parlata dall'antico popolo degli Umbri che in epoca classica
+               viveva nel territorio ad est dell'alto corso del fiume Tevere, lungo la dorsale appenninica
+               e fino all'Adriatico.</li>
+            <li><b>Lingua italica: </b>La lingua proto-italica è l'antenata delle lingue italiche, la più nota delle quali
+               è il latino.</li>
+            <li><b>Tedesco: </b>Il tedesco è una lingua indoeuropea appartenente al ramo occidentale delle lingue
+               germaniche.</li>
+            <li><b>Francese: </b>Il francese è una lingua appartenente al gruppo delle lingue romanze.</li>
+         </div>
+         <div id="div_place">
+            <h3>Lista dei luoghi</h3>
+            <li>Ginevra,
+               Ginevra,
+               Svizzera</li>
+            <li>Svizzera tedesca,
+               Svizzera tedesca,
+               Svizzera</li>
+            <li>Roma,
+               Lazio,
+               Italia</li>
+            <li>Bari,
+               Puglia,
+               Italia</li>
+            <li>Pompei,
+               Campania,
+               Italia</li>
+            <li>Paris,
+               Île-de-France,
+               Francia</li>
+            <li>Vufflens-le-Château,
+               Vaud,
+               Svizzera</li>
+            <li>Benevento,
+               Campania,
+               Italia</li>
+            <li>Cagliari,
+               Sardegna,
+               Italia</li>
+            <li>San Miniato,
+               Pisa,
+               Italia</li>
+            <li>Torre Annunziata,
+               Campania,
+               Italy</li>
+            <li>Acireale,
+               Sicilia,
+               Italy</li>
+         </div>
+         <div id="div_keywords">
+            <h3>Keywords:</h3>
+            <li>Lingua: la lingua è il sistema o forma storicamente determinata attraverso il quale
+               gli appartenenti a una comunità 
+               si esprimono e comunicano tra loro attraverso l'uso di un determinato linguaggio ovvero
+               un insieme di segni scritti (simboli) e/o parlati (suoni).
+               </li>
+            <li>Geograficamente: avv. geograficaménte, per quanto riguarda la geografia. 
+               cioè la conformazione o la posizione geografica.
+               </li>
+            <li>Una: pron.indef, sing, femminile.
+               </li>
+            <li>Identico: idèntico agg. [dal lat. mediev. identicus, der. di idem «medesimo»]. Interamente
+               uguale.
+               </li>
+            <li>Idioma: lingua propria e particolare di una nazione: [...] o un modo particolare di
+               parlare.
+               </li>
+            <li>Generalmente: avv. generalmente, abitualmente, d'abitudine, di solito, il più delle
+               volte, in generale [...].
+               </li>
+            <li>Forme geografiche: varietà di forme linguistiche legate ad aree geografiche diverse.
+               </li>
+            <li>Parlata: modo di parlare proprio di una persona o di una comunità, caratterizzato
+               da aspetti della pronuncia, della morfologia, del lessico (ha sign. più generico e
+               meno preciso che dialetto).
+               </li>
+            <li>Regione: ampia parte della superficie terrestre, distinta per caratteri particolari
+               (geografici, storici, antropici) che ne fanno un’unità bene individuata rispetto alle
+               regioni vicine o all’insieme che la comprende.
+               </li>
+            <li>Minuscolo: piccolo, alquanto piccolo, piccolino.
+               </li>
+            <li>Frazionamento dialettale: suddivisione di una lingua in una molteplicità di dialetti.
+               </li>
+            <li>Circostanza: ognuna delle condizioni oggettive che concorrono a determinare un evento
+               e che lo caratterizzano; Condizione momentanea.
+               </li>
+            <li>Differente: che differisce, che è di natura, qualità, aspetto diverso da qualcuno
+               o qualcosa che costituisce termine di confronto.
+               </li>
+            <li>Dialetto: il termine dialetto indica, a seconda dell'uso: una varietà di una lingua;
+               un idioma locale che ha perduto autonomia rispetto a un altro divenuto sociopoliticamente
+               dominante e riconosciuto come ufficiale (detto anche "lingua tetto"), con cui spesso
+               ha una certa affinità e origini simili.
+               </li>
+            <li>Lingua letteraria: la lingua letteraria è quella data da tutti i prodotti letterari,
+               in prosa e in versi, letti o recitati, che costituiscono la letteratura fin dalle
+               origini. 
+               A rigore, la lingua letteraria è definita e distinta da quella non letteraria soltanto
+               dal fatto di essere scritta (anche se è esistita ed esiste una letteratura solo orale)
+               e dalle finalità estetiche, rappresentative, espressive dei testi in cui è usata.
+               </li>
+            <li>Lingua ufficiale amministrativa: una lingua ufficiale amministrativa è la lingua che
+               uno Stato sovrano ha legalmente adottato come linguaggio giuridico-amministrativo
+               per la produzione dei propri documenti ufficiali, come le leggi, gli atti giudiziari
+               e notarili.
+               </li>
+            <li>Lingua dei traffici: lingua adottata per la comunicazione nelle attività commerciali.
+               </li>
+            <li>Interscambio: scambio reciproco. In economia, l'insieme delle importazioni ed esportazioni
+               tra due paesi.
+               </li>
+            <li>Paese: regione, largo tratto di territorio, per lo più coltivato e abitato, individuato
+               in base a particolari caratteri fisici, meteorologici, economici, antropici.
+               </li>
+            <li>Dialetto: il termine dialetto indica, a seconda dell'uso: una varietà di una lingua;
+               un idioma locale che ha perduto autonomia rispetto a un altro divenuto sociopoliticamente
+               dominante e riconosciuto come ufficiale (detto anche "lingua tetto"), con cui spesso
+               ha una certa affinità e origini simili.
+               </li>
+            <li>Monumento: segno che fu posto e rimane a ricordo di una persona o di un avvenimento:
+               porre, erigere, costruire un monumento. In partic., opera di scultura, o di architettura
+               decorativa, che si colloca nelle aree pubbliche a celebrazione di persone illustri
+               o in memoria di avvenimenti gloriosi.
+               </li>
+            <li>Gergo: forma di linguaggio propria di certi gruppi sociali (sette religiose o politiche,
+               mercanti, persone dello stesso mestiere, e anche vagabondi, malviventi, carcerati,
+               ecc.), usata allo scopo di evitare la comprensione da parte di persone estranee al
+               gruppo.
+               </li>
+            <li>Corruzione: la corruzione indica, in senso generico fisico-biologico un processo di
+               degenerazione e decomposizione. 
+               In ambito sociale è riferito più specificamente alla condotta di un soggetto che induce
+               qualcuno, in cambio di denaro oppure di altre utilità e/o vantaggi, ad agire contro
+               i propri doveri ed obblighi. 
+               Il fenomeno ha molte implicazioni, soprattutto dal punto di vista sociale e giuridico.
+               </li>
+            <li>Lingua ufficiale: lingua ufficiale: la lingua diplomatica stabilita come tale in base
+               a specifiche clausole di accordi fra Stati.
+               </li>
+            <li>Esempio: fatto, atto, comportamento o cosa in genere che si propone come modello da
+               imitare o da fuggire, o che comunque si additi all’ammirazione o alla riprovazione.
+               </li>
+            <li>Latino: il latino o lingua latina è una lingua indoeuropea appartenente al gruppo
+               delle lingue latino-falische. Veniva parlata nel Lazio (Lătĭum in latino) almeno dagli
+               inizi del I millennio a.C.. Oggi rimane la lingua ufficiale di un solo stato al mondo,
+               la Città del Vaticano.
+               </li>
+            <li>Origine: in genere, il primo principio, la prima apparizione o manifestazione di qualche
+               cosa, e il modo con cui essa si è formata.
+               </li>
+            <li>Osservatore superficiale: chi compie una valutazione sbrigativa e approssimativa,
+               non soffermandosi in modo approfondita sulla questione. 
+               </li>
+            <li>Iscrizione: qualsiasi scritta, incisa nella pietra, nel marmo, nel metallo, fusa nel
+               bronzo, ecc., o scolpita su un monumento, per memoria di persone o di avvenimenti,
+               come dedica, intitolazione, ecc.
+               </li>
+            <li>Lingua falisca: la lingua falisca è la lingua indoeuropea parlata dai Falisci, una
+               popolazione italica stanziata nell'Etruria meridionale. 
+               Ci è giunta in un centinaio di iscrizioni, che datano dal VII al II secolo a.C. e
+               che sono scritte in un alfabeto molto simile all'alfabeto latino.
+               </li>
+            <li>Lingua volsca: la lingua volsca, o volsco, è una lingua indoeuropea italica del gruppo
+               osco-umbro, parlata e scritta dal popolo dei Volsci nell'area del Latium. All'interno
+               del gruppo osco-umbro rappresenta una variante della lingua umbra.
+               </li>
+            <li>Lingua Osca: l'osco era una lingua indoeuropea (appartenente alla famiglia osco-umbra)
+               in uso presso gli Osci, nome con cui si intendeva un insieme alquanto eterogeneo di
+               popoli italici. L'area di diffusione della lingua osca comprendeva, in epoca preromana,
+               una larga parte dell'Italia meridionale.
+               </li>
+            <li>Lingua sabina: la lingua sabina era una varietà dialettale della lingua osca, parlata
+               nell'area abitata dall'antico popolo italico dei Sabini nel I millennio a.C. Fa parte
+               dei dialetti sabellici, insieme dialettale delle lingue osco-umbre. Tra i dialetti
+               sabellici è, con il marso, quello che mostra le più precoci e forti influenze del
+               latino.
+               </li>
+            <li>Parola: complesso di fonemi, cioè di suoni articolati, o anche singolo fonema (e la
+               relativa trascrizione in segni grafici), mediante i quali l’uomo esprime una nozione
+               generica, che si precisa e determina nel contesto di una frase.
+               </li>
+            <li>Grammatico: chi insegna o professa grammatica; studioso di problemi grammaticali.
+               </li>
+            <li>Latino romano: il latino divenne importante come lingua ufficiale dell'Impero romano,
+               usato come lingua franca in particolare nella sua parte occidentale. 
+               Diverse furono le cose successe in epoca più tarda: nel pieno II secolo, da un lato
+               nacque una moda culturale letteraria che, scavalcando gli ormai classici augustei,
+               guardava alla latinità arcaica; e dall'altro, con autori come Apuleio, cominciò ad
+               acquistare sempre più importanza il latino volgare, la lingua parlata che diventerà
+               la base delle odierne lingue derivate dal latino, appunto lingue neolatine.
+               </li>
+            <li>Storia: la storia è la disciplina che si occupa dello studio del passato tramite l'uso
+               di fonti, cioè di documenti, testimonianze e racconti che possano trasmettere il sapere.
+               Più precisamente, la storia è la ricerca sui fatti del passato e il tentativo di una
+               narrazione continua e sistematica degli stessi fatti, in quanto considerati di importanza
+               per la specie umana.
+               </li>
+            <li>Forma: l’aspetto esteriore con cui si configura ogni oggetto corporeo o fantastico,
+               o una sua rappresentazione.
+               </li>
+            <li>Lingua italica: le lingue italiche, un tempo considerate una famiglia linguistica
+               indoeuropea unitaria, parallela ad altri suoi sottogruppi, in realtà potrebbero costituire
+               due distinti rami della famiglia indoeuropea, entrambi attestati esclusivamente in
+               territorio italico e, di conseguenza, avvicinate da fenomeni di convergenza.
+               </li>
+            <li>Lingua umbra: la lingua umbra, o umbro, è una lingua indoeuropea estinta, appartenente
+               al gruppo delle lingue osco-umbre, parlata dall'antico popolo degli Umbri che in epoca
+               classica viveva nel territorio ad est dell'alto corso del fiume Tevere, lungo la dorsale
+               appenninica e fino all'Adriatico. 
+               È conosciuta soprattutto attraverso le Tavole eugubine, sette tavole di bronzo che
+               contengono le leggi sacre della città umbra di Ikuvium (odierna Gubbio), scritte in
+               gran parte in alfabeto umbro.
+               </li>
+            <li>Idea: nel significato più ampio e generico, ogni singolo contenuto del pensiero, ogni
+               entità mentale, e più in partic. la rappresentazione di un oggetto alla mente, la
+               nozione che la mente si forma o riceve di una cosa reale o immaginaria.
+               </li>
+            <li>Dialetto romano: il latino è una lingua indo-europea del gruppo latino-falisco. Il
+               latino non fu imposto ufficialmente ai popoli sottoposti al dominio romano. Il latino
+               non era un requisito per la cittadinanza romana e non esisteva una scuola statale
+               che lo privilegiasse come mezzo per l'istruzione: la conoscenza e l'uso fluente erano
+               auspicabili semplicemente per il suo prestigio socio-culturale e per motivazioni pratiche.
+               </li>
+            <li>Causa: fatto o avvenimento che provoca un determinato effetto, che è origine o occasione
+               di un altro fatto.
+               </li>
+            <li>Politica: il complesso delle attività che si riferiscono alla ‘vita pubblica’ e agli
+               ‘affari pubblici’ di una determinata comunità di uomini.
+               </li>
+            <li>Lettarario: di opera dell’ingegno che appartiene alla letteratura.
+               </li>
+            <li>Linguaggio italico: dell'Italia antica: popoli i. || lingue, dialetti i., gruppo di
+               lingue e dialetti della famiglia indoeuropea parlati dalle popolazioni stanziate in
+               varie zone dell'Italia centro-meridionale prima della conquista romana.
+               </li>
+            <li>Tedesco moderno: il tedesco è una lingua indoeuropea appartenente al ramo occidentale
+               delle lingue germaniche. 
+               Quando Martin Lutero tradusse la Bibbia (il Nuovo Testamento nel 1522 e il Vecchio
+               Testamento, pubblicato in diversi parti e completato nel 1534), basò la sua traduzione
+               principalmente sul linguaggio standard della burocrazia in Sassonia. Lutero è ritenuto
+               l'artefice principale dellos sviluppo della lingua tedesca moderna. 
+               Cercando di trovare un fondamento della fede cristiana nella Bibbia, che al suo tempo
+               era conosciuto solo da pochissime persone colte, Lutero, traducendo la Bibbia in tedesco,
+               contribuendha contribuito così a una sua larga diffusione tra il popolo e, in una
+               Germania frantumata da centinaia di stati e dialetti, ha creato un nuovo linguaggio,
+               ancorata al dialetto della Germania centrale e arricchito dal linguaggio popolare.
+               
+               Questo linguaggio era comprensibile in tutte le parti della Germania.
+               </li>
+            <li>Termine: vocabolo
+               </li>
+            <li>Tedesco ufficiale: il tedesco è una lingua indoeuropea appartenente al ramo occidentale
+               delle lingue germaniche. 
+               È la lingua con il maggior numero di locutori madrelingua del continente europeo e
+               dell'Unione europea, riconosciuta come lingua ufficiale in Germania, Austria, Svizzera,
+               Liechtenstein, Belgio, Lussemburgo, Namibia (ufficiale come lingua regionale), nella
+               Regione italiana del Trentino-Alto Adige e nel voivodato di Opole in Polonia.
+               </li>
+            <li>Valore zero: determinazione di una variabile numerica.
+               </li>
+            <li>Valore: importanza che una cosa, materiale o astratta, ha, sia oggettivamente in sé
+               stessa, sia soggettivamente nel giudizio dei singoli.
+               </li>
+            <li>Unità: elemento distinto e autonomo, preso in considerazione singolarmente o in quanto
+               componente di un insieme.
+               </li>
+            <li>Distinguere: riconoscere diversi fra due o più oggetti, avvertendo, con i sensi e
+               con l’intelletto, la differenza che è tra essi.
+               </li>
+            <li>Francese: il francese è una lingua appartenente al gruppo delle lingue romanze.
+               </li>
+            <li>Dialetti francesi: lista delle lingue della Francia che si basa sul rapporto dell'aprile
+               1999 del professor Bernard Cerquiglini, preparato per un'eventuale ratifica della
+               Carta europea per le lingue regionali e minoritarie: contiene le lingue originali
+               della Francia metropolitana. I dialetti del francese non sono considerati come lingue
+               regionali.
+               </li>
+            <li>Francese ufficiale: il franciano (o francese centrale o francese di Parigi) è il termine
+               usato dai linguisti del XIX secolo applicato in particolare al dialetto della lingua
+               d'oïl parlato nella regione dell'Île-de-France (con Parigi al centro) prima dell'istituzione
+               del francese come lingua standard.
+               </li>
+         </div>
+         <div id="div_person">
+            <h3>Lista delle persone menzionate</h3>
+            <li>
+               
+               Ferdinand
+               De Saussure
+               </li>
+            <li> 
+               Emanuele
+               Fadda
+               </li>
+            <li> 
+               Simon
+               Bouquet
+               </li>
+            <li> 
+               Rudolf
+               Engler
+               </li>
+            <li> 
+               Antoinette
+               Weil
+               </li>
+            <li> 
+               Alessandro
+               Chidichimo
+               </li>
+            <li> 
+               Tullio
+               De Mauro
+               </li>
+            <li> 
+               Genny
+               Miola
+               </li>
+            <li> 
+               Angelo
+               Mario
+               Del Grosso
+               </li>
+         </div>
+      </div>
+      <div class="end" id="appendice">
+         <div class="container_bibl">
+            <h3>Bibliografia</h3>
+            <li>Alessandro Chidichimo,
+                
+               "<i>Cahiers Ferdinand de Saussure</i>"
+               
+               Ginevra
+               ,
+               Librairie Droz,
+               2009.
+               </li>
+            <li>Ferdinand De Saussure,
+               Tullio De Mauro,
+                
+               "<i>Corso di linguistica generale Introduzione, traduzione e commento di Tullio De Mauro</i>"
+               
+               Roma
+               
+               Bari
+               ,
+               Editori Laterza,
+               1976.
+               </li>
+            <li>Ferdinand de Saussure,
+               Simon Bouquet,
+               Rudolf Engler,
+               Antoinette Weil,
+                
+               "<i>Écrits de linguistique générale</i>"
+               Paris,
+               Gallimard,
+               2002.
+               </li>
+            <li>Emanuele Fadda,
+                
+               "<i>Lingua e mente sociale Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</i>"
+               Acireale,
+               Bonanno Editore,
+               .
+               </li>
+         </div>
+         <div class="container_append">
+            <h3>Riferimenti</h3><b>Edizione digitale - Settembre 2022</b><p><b>Progetto a cura di: </b>Genny Miola</p>
+            <p><b>Coordinato da: </b>Angelo Mario Del Grosso</p>
+            <p><b>Traduzione di: </b>Emanuele Fadda</p>
+            <p><b>Trascrizione di: </b>Simon Bouquet e Rudolf Engler</p>
+         </div>
+      </div>
+   </body>
+</html>
